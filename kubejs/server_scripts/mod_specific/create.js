@@ -3597,7 +3597,7 @@ event.custom({
   }
 }).id('mekaminers:create_creative_fase/machine_efficiency_creative_augment')
 event.custom({
-  "type": "extendedcrafting:shaped_table",
+  "type": "create:mechanical_crafting",
   "pattern": [
     "  AAAAA  ",
     " ABCDCBA ",
@@ -3649,7 +3649,7 @@ event.custom({
   }
 }).id('mekaminers:create_creative_fase/flight_augment')
 event.custom({
-  "type": "extendedcrafting:shaped_table",
+  "type": "create:mechanical_crafting",
   "pattern": [
     "  AAAAA  ",
     " ABCCCBA ",
@@ -3695,7 +3695,7 @@ event.custom({
   }
 }).id('mekaminers:create_creative_fase/creative_compressor')
 event.custom({
-  "type": "extendedcrafting:shaped_table",
+  "type": "create:mechanical_crafting",
   "pattern": [
     " AAAAAAA ",
     "ABCDEFCGA",
@@ -3756,7 +3756,7 @@ event.custom({
   }
 }).id('mekaminers:create_creative_fase/mana_tablet')
 event.custom({
-  "type": "extendedcrafting:shaped_table",
+  "type": "create:mechanical_crafting",
   "pattern": [
     "  AAAAA  ",
     " ABCDEBA ",
@@ -3808,7 +3808,7 @@ event.custom({
   }
 }).id('mekaminers:create_creative_fase/creative_motor')
 event.custom({
-  "type": "extendedcrafting:shaped_table",
+  "type": "create:mechanical_crafting",
   "pattern": [
     "   ABA   ",
     "  ACDEA  ",
@@ -3944,7 +3944,7 @@ event.custom({
   }
 }).id('mekaminers:create_creative_fase/creative_blaze_cake')
 event.custom({
-  "type": "extendedcrafting:shaped_table",
+  "type": "create:mechanical_crafting",
   "pattern": [
     "  AAAAA  ",
     " ABCCCDA ",
@@ -4002,7 +4002,7 @@ event.custom({
   }
 }).id('mekaminers:create_creative_fase/diamond_ring')
 event.custom({
-  "type": "extendedcrafting:shaped_table",
+  "type": "create:mechanical_crafting",
   "pattern": [
     "  AAAAA  ",
     " ABBCBBA ",
@@ -4061,7 +4061,7 @@ event.custom({
 }).id('mekaminers:create_creative_fase/angel_ring')
 event.remove({output: "aeinfinitybooster:infinity_card"})
 event.custom({
-  "type": "extendedcrafting:shaped_table",
+  "type": "create:mechanical_crafting",
   "pattern": [
     "         ",
     "         ",
@@ -4096,7 +4096,7 @@ event.custom({
 }).id('mekaminers:create_fase_wireless/infinity_card')
 event.remove({output: "aeinfinitybooster:dimension_card"})
 event.custom({
-  "type": "extendedcrafting:shaped_table",
+  "type": "create:mechanical_crafting",
   "pattern": [
     "         ",
     "         ",
@@ -4137,7 +4137,7 @@ event.custom({
 }).id('mekaminers:create_fase_wireless/dimension_card')
 event.remove({output:"industrialforegoing:infinity_trident"})
 event.custom({
-  "type": "extendedcrafting:shaped_table",
+  "type": "create:mechanical_crafting",
   "pattern": [
     "         ",
     "         ",
@@ -4195,6 +4195,40 @@ event.custom({
   }
 }).id('mekaminers:create_fase_infinity_tools/infinity_trident')
 event.custom({
+  "type": "create:mechanical_crafting",
+  "pattern": [
+    "         ",
+    "      A  ",
+    "     BCB ",
+    "     DA  ",
+    "    D    ",
+    "   D     ",
+    "         ",
+    "         ",
+    "         "
+  ],
+  "key": {
+    "A": {
+      "item": "extendedcrafting:ender_star"
+    },
+    "B": {
+      "item": "extendedcrafting:flux_star"
+    },
+    "C": {
+      "item": "minecraft:nether_star"
+    },
+    "D": {
+      "item": "mysticalagradditions:insanium_ingot"
+    }
+  },
+  "result": {
+    "type": "forge:nbt",
+    "item": "constructionwand:infinity_wand",
+    "count": 1,
+    "nbt": "{wand_options:{}}"
+  }
+})
+event.custom({
   "type": "extendedcrafting:shaped_table",
   "pattern": [
     "         ",
@@ -4227,119 +4261,11 @@ event.custom({
       "item": "allthemodium:unobtainium_pickaxe"
     }
   },
-  "results": {
-      "type": "forge:nbt",
-      "item": "industrialforegoing:infinity_drill",
-      "count": 1,
-      "nbt": "{CanCharge:1b,Channeling:0b,Energy:9223372036854775807L,Fluid:{Amount:1000000,FluidName:\"biofuel\"},Loyalty:0,Riptide:0,Selected:\"ARTIFACT\",Special:1b}"
-    }
-}).id('mekaminers:create_fase_infinity_tools/infinity_drill')
-event.custom({
-  "type": "extendedcrafting:shaped_table",
-  "pattern": [
-    "         ",
-    "         ",
-    "    A    ",
-    "   ABA   ",
-    "  CDEDC  ",
-    "   ABA   ",
-    "    A    ",
-    "         ",
-    "         "
-  ],
-  "key": {
-    "A": {
-      "item": "industrialforegoing:plastic"
-    },
-    "B": {
-      "item": "minecraft:nether_star"
-    },
-    "C": {
-      "item": "industrialforegoing:machine_frame_supreme"
-    },
-    "D": {
-      "item": "kubejs:initiated_mechanism"
-    },
-    "E": {
-      "item": "allthemodium:unobtainium_axe"
-    }
-  },
-  "results": {
-    "type": "forge:nbt",
-    "item": "industrialforegoing:infinity_saw",
-    "count": 1,
-    "nbt": "{CanCharge:1b,Channeling:0b,Energy:0L,Fluid:{Amount:0,FluidName:\"biofuel\"},Loyalty:0,Riptide:0,Selected:\"POOR\",Special:0b}"
-  }
-}).id('mekaminers:create_fase_infinity_tools/infinity_saw')
-event.custom({
-  "type": "extendedcrafting:shaped_table",
-  "pattern": [
-    "         ",
-    "         ",
-    "         ",
-    "   ABA   ",
-    "   CDC   ",
-    "   BEB   ",
-    "         ",
-    "         ",
-    "         "
-  ],
-  "key": {
-    "A": {
-      "item": "kubejs:initiated_mechanism"
-    },
-    "B": {
-      "item": "industrialforegoing:plastic"
-    },
-    "C": {
-      "item": "industrialforegoing:machine_frame_supreme"
-    },
-    "D": {
-      "item": "allthemodium:unobtainium_sword"
-    },
-    "E": {
-      "item": "minecraft:nether_star"
-    }
-  },
-  "results": {
-    "type": "forge:nbt",
-    "item": "industrialforegoing:infinity_hammer",
-    "count": 1,
-    "nbt": "{CanCharge:1b,Channeling:0b,Energy:0L,Fluid:{Amount:0,FluidName:\"biofuel\"},Loyalty:0,Riptide:0,Selected:\"POOR\",Special:0b}"
-  }
-}).id('mekaminers:create_fase_infinity_tools/infinity_hammer')
-event.custom({
-  "type": "extendedcrafting:shaped_table",
-  "pattern": [
-    "         ",
-    "      A  ",
-    "     BCB ",
-    "     DA  ",
-    "    D    ",
-    "   D     ",
-    "         ",
-    "         ",
-    "         "
-  ],
-  "key": {
-    "A": {
-      "item": "extendedcrafting:ender_star"
-    },
-    "B": {
-      "item": "extendedcrafting:flux_star"
-    },
-    "C": {
-      "item": "minecraft:nether_star"
-    },
-    "D": {
-      "item": "mysticalagradditions:insanium_ingot"
-    }
-  },
   "result": {
     "type": "forge:nbt",
-    "item": "constructionwand:infinity_wand",
+    "item": "industrialforegoing:infinity_drill",
     "count": 1,
-    "nbt": "{wand_options:{}}"
+    "nbt": "{CanCharge:1b,Energy:0L,Fluid:{Amount:0,FluidName:\"biofuel\"},Selected:\"POOR\",Special:0b}"
   }
 })
 })
