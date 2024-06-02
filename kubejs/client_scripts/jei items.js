@@ -55,11 +55,13 @@ JEIEvents.hideItems(event =>{
    'minecraft:barrier',
    'minecraft:debug_stick',
    'minecraft:light',
-   'minecraft:command_block_minecart'
+   'minecraft:command_block_minecart',
 ];
 OperatorsI.forEach(OpI =>{
    event.hide(OpI);
 });
+//Removing ban itens
+event.hide('@buildinggadgets')
 //Hidding Rage Glove
 event.hide('relics:rage_glove')
 

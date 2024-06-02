@@ -2013,7 +2013,7 @@ event.custom({
   "transitionalItem": {
     "item": "kubejs:incomplete_vibranium_allthemodium_alloy_dust"
   }
-})
+}).id('mekaminers:create_fase_4/vibranium_allthemodium_alloy_dust')
 event.custom({
   "type": "create:sequenced_assembly",
   "ingredient": {
@@ -2109,7 +2109,7 @@ event.custom({
   "transitionalItem": {
     "item": "kubejs:incomplete_unobtainium_allthemodium_alloy_dust"
   }
-})
+}).id('mekaminers:create_fase_4/unobtainium_allthemodium_alloy_dust')
 event.custom({
   "type": "create:sequenced_assembly",
   "ingredient": {
@@ -2205,7 +2205,7 @@ event.custom({
   "transitionalItem": {
     "item": "kubejs:incomplete_unobtainium_vibranium_alloy_dust"
   }
-})
+}).id('mekaminers:create_fase_4/unobtainium_vibranium_alloy_dust')
 event.custom({
   "type": "create:sequenced_assembly",
   "ingredient": {
@@ -2303,7 +2303,7 @@ event.custom({
   "transitionalItem": {
     "item": "kubejs:incomplete_precision_mechanism_component_2"
   }
-})
+}).id('mekaminers:create_fase_4/precision_mechanism_component_2')
 event.custom({
   "type": "create:sequenced_assembly",
   "ingredient": {
@@ -2401,7 +2401,7 @@ event.custom({
   "transitionalItem": {
     "item": "kubejs:incomplete_precision_mechanism_component_1"
   }
-})
+}).id('mekaminers:create_fase_4/precision_mechanism_component_1')
 event.remove({output:"create:sequenced_assembly/precision_mechanism"})
 event.custom({
   "type": "create:sequenced_assembly",
@@ -2463,6 +2463,1883 @@ event.custom({
   ],
   "transitionalItem": {
     "item": "kubejs:incomplete_precision_mechanism"
+  }
+}).id('mekaminers:create_fase_4/precision_mechanism')
+event.custom({
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "botania:terrasteel_ingot"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "item": "kubejs:activation_circuit_component_2"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "botania:terrasteel_ingot"
+        },
+        { 
+          "item": "extendedcrafting:crystaltine_catalyst"
+        }
+      ],
+      "results": [
+        {
+          "item": "kubejs:incomplete_activation_circuit_component_2"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "kubejs:incomplete_activation_circuit_component_2"
+        },
+        { 
+          "item": "kubejs:initiated_mechanism"
+        }
+      ],
+      "results": [
+        {
+          "item": "kubejs:incomplete_activation_circuit_component_2"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "kubejs:incomplete_activation_circuit_component_2"
+        },
+        { 
+          "item": "ae2:cell_component_256k"
+        }
+      ],
+      "results": [
+        {
+          "item": "kubejs:incomplete_activation_circuit_component_2"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "kubejs:incomplete_activation_circuit_component_2"
+        },
+        { 
+          "item": "allthemodium:unobtainium_vibranium_alloy_ingot"
+        }
+      ],
+      "results": [
+        {
+          "item": "kubejs:incomplete_activation_circuit_component_2"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "kubejs:incomplete_activation_circuit_component_2"
+        }
+      ],
+      "results": [
+        {
+          "item": "kubejs:activation_circuit_component_2"
+        }
+      ]
+    }
+  ],
+  "transitionalItem": {
+    "item": "kubejs:incomplete_activation_circuit_component_2"
+  }
+}).id('mekaminers:create_fase_5/activation_circuit_component_2')
+event.custom({
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "megacells:sky_steel_ingot"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "item": "kubejs:activation_circuit_component_1"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "megacells:sky_steel_ingot"
+        },
+        { 
+          "item": "extendedcrafting:crystaltine_catalyst"
+        }
+      ],
+      "results": [
+        {
+          "item": "kubejs:incomplete_activation_circuit_component_1"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "kubejs:incomplete_activation_circuit_component_1"
+        },
+        { 
+          "item": "powah:crystal_nitro"
+        }
+      ],
+      "results": [
+        {
+          "item": "kubejs:incomplete_activation_circuit_component_1"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "kubejs:incomplete_activation_circuit_component_1"
+        },
+        { 
+          "item": "ae2:cell_component_256k"
+        }
+      ],
+      "results": [
+        {
+          "item": "kubejs:incomplete_activation_circuit_component_1"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "kubejs:incomplete_activation_circuit_component_1"
+        },
+        { 
+          "item": "bloodmagic:demonslate"
+        }
+      ],
+      "results": [
+        {
+          "item": "kubejs:incomplete_activation_circuit_component_1"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "kubejs:incomplete_activation_circuit_component_1"
+        }
+      ],
+      "results": [
+        {
+          "item": "kubejs:activation_circuit_component_1"
+        }
+      ]
+    }
+  ],
+  "transitionalItem": {
+    "item": "kubejs:incomplete_activation_circuit_component_1"
+  }
+}).id('mekaminers:create_fase_5/activation_circuit_component_1')
+event.custom({
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "create:precision_mechanism"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "item": "kubejs:activation_circuit"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "create:precision_mechanism"
+        },
+        { 
+          "item": "kubejs:activation_circuit_component_2"
+        }
+      ],
+      "results": [
+        {
+          "item": "kubejs:incomplete_activation_circuit"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "kubejs:incomplete_activation_circuit"
+        },
+        { 
+          "item": "kubejs:activation_circuit_component_1"
+        }
+      ],
+      "results": [
+        {
+          "item": "kubejs:incomplete_activation_circuit"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "kubejs:incomplete_activation_circuit"
+        },
+        { 
+          "item": "refinedstorage:1024k_fluid_storage_part"
+        }
+      ],
+      "results": [
+        {
+          "item": "kubejs:incomplete_activation_circuit"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "kubejs:incomplete_activation_circuit"
+        },
+        { 
+          "item": "extendedcrafting:crystaltine_catalyst"
+        }
+      ],
+      "results": [
+        {
+          "item": "kubejs:incomplete_activation_circuit"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "kubejs:incomplete_activation_circuit"
+        },
+        { 
+          "item": "ae2:cell_component_256k"
+        }
+      ],
+      "results": [
+        {
+          "item": "kubejs:incomplete_activation_circuit"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "kubejs:incomplete_activation_circuit"
+        }
+      ],
+      "results": [
+        {
+          "item": "kubejs:activation_circuit"
+        }
+      ]
+    }
+  ],
+  "transitionalItem": {
+    "item": "kubejs:incomplete_activation_circuit"
+  }
+}).id('mekaminers:create_fase_5/activation_circuit')
+event.custom({
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "extendedcrafting:crystaltine_ingot"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "item": "kubejs:spatial_circuit_component_2"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "extendedcrafting:crystaltine_ingot"
+        },
+        { 
+          "item": "kubejs:activation_circuit_component_2"
+        }
+      ],
+      "results": [
+        {
+          "item": "kubejs:incomplete_spatial_circuit_component_2"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "kubejs:incomplete_spatial_circuit_component_2"
+        },
+        { 
+          "item": "kubejs:activation_circuit"
+        }
+      ],
+      "results": [
+        {
+          "item": "kubejs:incomplete_spatial_circuit_component_2"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "kubejs:incomplete_spatial_circuit_component_2"
+        },
+        { 
+          "item": "refinedstorage:4096k_fluid_storage_part"
+        }
+      ],
+      "results": [
+        {
+          "item": "kubejs:incomplete_spatial_circuit_component_2"
+        }
+      ]
+    },
+    {
+      "type": "create:filling",
+      "ingredients": [
+        {
+          "item": "kubejs:incomplete_spatial_circuit_component_2"
+        },
+        { 
+          "fluid": "mysticalagradditions:molten_imperium",
+          "amount": 150
+        }
+      ],
+      "results": [
+        {
+          "item": "kubejs:incomplete_spatial_circuit_component_2"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "kubejs:incomplete_spatial_circuit_component_2"
+        }
+      ],
+      "results": [
+        {
+          "item": "kubejs:spatial_circuit"
+        }
+      ]
+    }
+  ],
+  "transitionalItem": {
+    "item": "kubejs:incomplete_spatial_circuit_component_2"
+  }
+}).id('mekaminers:create_fase_6/spatial_circuit_component_2')
+event.custom({
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "kubejs:activation_circuit_component_1"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "item": "kubejs:spatial_circuit_component_1"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "kubejs:activation_circuit_component_1"
+        },
+        { 
+          "item": "powah:energy_cell_nitro"
+        }
+      ],
+      "results": [
+        {
+          "item": "kubejs:incomplete_spatial_circuit_component_1"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "kubejs:incomplete_spatial_circuit_component_1"
+        },
+        { 
+          "item": "bloodmagic:telepositionsigil"
+        }
+      ],
+      "results": [
+        {
+          "item": "kubejs:incomplete_spatial_circuit_component_1"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "kubejs:incomplete_spatial_circuit_component_1"
+        },
+        { 
+          "item": "refinedstorage:4096k_fluid_storage_part"
+        }
+      ],
+      "results": [
+        {
+          "item": "kubejs:incomplete_spatial_circuit_component_1"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "kubejs:incomplete_spatial_circuit_component_1"
+        },
+        { 
+          "item": "bigreactors:inanite_ingot"
+        }
+      ],
+      "results": [
+        {
+          "item": "kubejs:incomplete_spatial_circuit_component_1"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "kubejs:incomplete_spatial_circuit_component_1"
+        }
+      ],
+      "results": [
+        {
+          "item": "kubejs:spatial_circuit_component_1"
+        }
+      ]
+    }
+  ],
+  "transitionalItem": {
+    "item": "kubejs:incomplete_spatial_circuit_component_1"
+  }
+}).id('mekaminers:create_fase_6/spatial_circuit_component_1')
+event.custom({
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "kubejs:activation_circuit"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "item": "kubejs:spatial_circuit"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "kubejs:activation_circuit"
+        },
+        { 
+          "item": "kubejs:spatial_circuit_component_2"
+        }
+      ],
+      "results": [
+        {
+          "item": "kubejs:incomplete_spatial_circuit"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "kubejs:incomplete_spatial_circuit"
+        },
+        { 
+          "item": "powah:energy_cell_nitro"
+        }
+      ],
+      "results": [
+        {
+          "item": "kubejs:incomplete_spatial_circuit"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "kubejs:incomplete_spatial_circuit"
+        },
+        { 
+          "item": "create:precision_mechanism"
+        }
+      ],
+      "results": [
+        {
+          "item": "kubejs:incomplete_spatial_circuit"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "kubejs:incomplete_spatial_circuit"
+        },
+        { 
+          "item": "refinedstorage:4096k_fluid_storage_part"
+        }
+      ],
+      "results": [
+        {
+          "item": "kubejs:incomplete_spatial_circuit"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "kubejs:incomplete_spatial_circuit"
+        },
+        { 
+          "item": "kubejs:activation_circuit_component_1"
+        }
+      ],
+      "results": [
+        {
+          "item": "kubejs:incomplete_spatial_circuit"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "kubejs:incomplete_spatial_circuit"
+        }
+      ],
+      "results": [
+        {
+          "item": "kubejs:spatial_circuit"
+        }
+      ]
+    }
+  ],
+  "transitionalItem": {
+    "item": "kubejs:incomplete_spatial_circuit"
+  }
+}).id('mekaminers:create_fase_6/spatial_circuit')
+event.custom({
+  "type": "create:mechanical_crafting",
+  "pattern": [
+    "  ABCBA  ",
+    " ADEFEDA ",
+    "AGDEEEDGA",
+    "GGDHIHDGG",
+    "GGDHJHDGG",
+    "GGDHIHDGG",
+    "AGDKKKDGA",
+    " ADKLKDA ",
+    "  ABMBA  "
+  ],
+  "key": {
+    "A": {
+      "item": "extendedcrafting:elite_catalyst"
+    },
+    "B": {
+      "item": "kubejs:spatial_circuit_component_2"
+    },
+    "C": {
+      "item": "kubejs:spatial_circuit_component_1"
+    },
+    "D": {
+      "item": "allthemodium:vibranium_allthemodium_alloy_ingot"
+    },
+    "E": {
+      "item": "allthemodium:unobtainium_allthemodium_alloy_ingot"
+    },
+    "F": {
+      "item": "mysticalagradditions:molten_supremium_bucket"
+    },
+    "G": {
+      "item": "extendedcrafting:crystaltine_ingot"
+    },
+    "H": {
+      "item": "extendedcrafting:the_ultimate_ingot"
+    },
+    "I": {
+      "item": "extendedcrafting:the_ultimate_catalyst"
+    },
+    "J": {
+      "item": "mysticalagradditions:insanium_essence"
+    },
+    "K": {
+      "item": "allthemodium:unobtainium_vibranium_alloy_ingot"
+    },
+    "L": {
+      "item": "allthemodium:molten_unobtainium_bucket"
+    },
+    "M": {
+      "item": "kubejs:spatial_circuit"
+    }
+  },
+  "result": {
+    "item": "mysticalagradditions:creative_essence"
+  }
+}).id('mekaminers:create_creative_fase/creative_essence')
+event.custom({
+  "type": "create:mechanical_crafting",
+  "pattern": [
+    " AAAAAAA ",
+    "ABCDEDCFA",
+    "AGCHIHCGA",
+    "AGCIJICGA",
+    "AGCIKICGA",
+    "AGCIJICGA",
+    "AGCLILCGA",
+    "AMCDEDCNA",
+    " AAAAAAA "
+  ],
+  "key": {
+    "A": {
+      "item": "ae2:dense_energy_cell"
+    },
+    "B": {
+      "item": "allthemodium:molten_allthemodium_bucket"
+    },
+    "C": {
+      "item": "extendedcrafting:crystaltine_ingot"
+    },
+    "D": {
+      "item": "ae2:cell_component_256k"
+    },
+    "E": {
+      "item": "kubejs:spatial_circuit_component_2"
+    },
+    "F": {
+      "item": "allthemodium:molten_vibranium_bucket"
+    },
+    "G": {
+      "item": "extendedcrafting:elite_catalyst"
+    },
+    "H": {
+      "item": "kubejs:spatial_circuit_component_1"
+    },
+    "I": {
+      "item": "extendedcrafting:the_ultimate_ingot"
+    },
+    "J": {
+      "item": "extendedcrafting:the_ultimate_catalyst"
+    },
+    "K": {
+      "item": "mysticalagradditions:creative_essence"
+    },
+    "L": {
+      "item": "kubejs:spatial_circuit"
+    },
+    "M": {
+      "item": "mysticalagradditions:molten_imperium_bucket"
+    },
+    "N": {
+      "item": "allthemodium:soul_lava_bucket"
+    }
+  },
+  "result": {
+    "item": "ae2:creative_energy_cell"
+  }
+}).id('mekaminers:create_creative_fase/creative_energy_cell')
+event.custom({
+  "type": "create:mechanical_crafting",
+  "pattern": [
+    " AAAAAAA ",
+    "ABCDEDCFA",
+    "AGDHIHDJA",
+    "AGDIKIDJA",
+    "ADLKMKLDA",
+    "AJDIKIDGA",
+    "AJDHIHDGA",
+    "ANCDEDCOA",
+    " AAAAAAA "
+  ],
+  "key": {
+    "A": {
+      "item": "immersiveengineering:capacitor_hv"
+    },
+    "B": {
+      "item": "allthemodium:molten_vibranium_bucket"
+    },
+    "C": {
+      "item": "allthemodium:vibranium_allthemodium_alloy_ingot"
+    },
+    "D": {
+      "item": "extendedcrafting:crystaltine_ingot"
+    },
+    "E": {
+      "item": "kubejs:spatial_circuit_component_1"
+    },
+    "F": {
+      "item": "allthemodium:soul_lava_bucket"
+    },
+    "G": {
+      "item": "allthemodium:unobtainium_allthemodium_alloy_ingot"
+    },
+    "H": {
+      "item": "kubejs:spatial_circuit"
+    },
+    "I": {
+      "item": "extendedcrafting:the_ultimate_ingot"
+    },
+    "J": {
+      "item": "allthemodium:unobtainium_vibranium_alloy_ingot"
+    },
+    "K": {
+      "item": "extendedcrafting:the_ultimate_catalyst"
+    },
+    "L": {
+      "item": "kubejs:spatial_circuit_component_2"
+    },
+    "M": {
+      "item": "ae2:creative_energy_cell"
+    },
+    "N": {
+      "item": "allthemodium:molten_allthemodium_bucket"
+    },
+    "O": {
+      "item": "mysticalagradditions:molten_imperium_bucket"
+    }
+  },
+  "result": {
+    "item": "immersiveengineering:capacitor_creative"
+  }
+}).id('mekaminers:create_creative_fase/capacitor_creative')
+event.custom({
+  "type": "create:mechanical_crafting",
+  "pattern": [
+    " AAAAAAA ",
+    "ABCDEFCGA",
+    "ACDEHEFCA",
+    "ADEHIHEFA",
+    "AEHIJIHEA",
+    "AFEHIHEKA",
+    "ACFEHEKCA",
+    "ALCFEKCMA",
+    " AAAAAAA "
+  ],
+  "key": {
+    "A": {
+      "type": "forge:nbt",
+      "item": "integrateddynamics:energy_battery",
+      "count": 1,
+      "nbt": "{energy:0}"
+    },
+    "B": {
+      "item": "allthemodium:molten_vibranium_bucket"
+    },
+    "C": {
+      "item": "mysticalagradditions:insanium_essence"
+    },
+    "D": {
+      "item": "kubejs:spatial_circuit_component_1"
+    },
+    "E": {
+      "item": "extendedcrafting:crystaltine_ingot"
+    },
+    "F": {
+      "item": "extendedcrafting:elite_catalyst"
+    },
+    "G": {
+      "item": "allthemodium:soul_lava_bucket"
+    },
+    "H": {
+      "item": "extendedcrafting:the_ultimate_ingot"
+    },
+    "I": {
+      "item": "extendedcrafting:the_ultimate_catalyst"
+    },
+    "J": {
+      "item": "immersiveengineering:capacitor_creative"
+    },
+    "K": {
+      "item": "kubejs:spatial_circuit"
+    },
+    "L": {
+      "item": "allthemodium:molten_allthemodium_bucket"
+    },
+    "M": {
+      "item": "mysticalagradditions:molten_imperium_bucket"
+    }
+  },
+  "result": {
+    "item": "integrateddynamics:energy_battery_creative"
+  }
+}).id('mekaminers:create_creative_fase/energy_battery_creative')
+event.custom({
+  "type": "create:mechanical_crafting",
+  "pattern": [
+    " AAAAAAA ",
+    "ABCDEDCFA",
+    "ACGHIHGCA",
+    "ADJKLKJDA",
+    "AEJLMLJEA",
+    "ADJKLKJDA",
+    "ACGHIHGCA",
+    "ANCDEDCOA",
+    " AAAAAAA "
+  ],
+  "key": {
+    "A": {
+      "item": "create:railway_casing"
+    },
+    "B": {
+      "item": "allthemodium:molten_vibranium_bucket"
+    },
+    "C": {
+      "item": "extendedcrafting:elite_catalyst"
+    },
+    "D": {
+      "item": "allthemodium:unobtainium_vibranium_alloy_ingot"
+    },
+    "E": {
+      "item": "allthemodium:vibranium_allthemodium_alloy_ingot"
+    },
+    "F": {
+      "item": "allthemodium:soul_lava_bucket"
+    },
+    "G": {
+      "item": "allthemodium:unobtainium_allthemodium_alloy_ingot"
+    },
+    "H": {
+      "item": "kubejs:spatial_circuit_component_2"
+    },
+    "I": {
+      "item": "kubejs:spatial_circuit_component_1"
+    },
+    "J": {
+      "item": "extendedcrafting:crystaltine_ingot"
+    },
+    "K": {
+      "item": "kubejs:spatial_circuit"
+    },
+    "L": {
+      "item": "extendedcrafting:the_ultimate_catalyst"
+    },
+    "M": {
+      "item": "integrateddynamics:energy_battery_creative"
+    },
+    "N": {
+      "item": "allthemodium:molten_allthemodium_bucket"
+    },
+    "O": {
+      "item": "mysticalagradditions:molten_imperium_bucket"
+    }
+  },
+  "result": {
+    "item": "createaddition:creative_energy"
+  }
+}).id('mekaminers:create_creative_fase/creative_energy')
+event.custom({
+  "type": "create:mechanical_crafting",
+  "pattern": [
+    " AABBBAA ",
+    "ACDEEEFGA",
+    "ADHIJIHFA",
+    "BEIKKKIEB",
+    "BEJKLKJEB",
+    "BEIKKKIEB",
+    "AFMIJIMDA",
+    "ANFEEEDOA",
+    " AABBBAA "
+  ],
+  "key": {
+    "A": {
+      "item": "powah:capacitor_nitro"
+    },
+    "B": {
+      "item": "powah:reactor_starter"
+    },
+    "C": {
+      "item": "allthemodium:molten_allthemodium_bucket"
+    },
+    "D": {
+      "item": "allthemodium:vibranium_allthemodium_alloy_ingot"
+    },
+    "E": {
+      "item": "mysticalagradditions:insanium_essence"
+    },
+    "F": {
+      "item": "allthemodium:unobtainium_allthemodium_alloy_ingot"
+    },
+    "G": {
+      "item": "allthemodium:soul_lava_bucket"
+    },
+    "H": {
+      "item": "kubejs:spatial_circuit_component_1"
+    },
+    "I": {
+      "item": "kubejs:spatial_circuit_component_2"
+    },
+    "J": {
+      "item": "extendedcrafting:elite_catalyst"
+    },
+    "K": {
+      "item": "powah:dielectric_casing"
+    },
+    "L": {
+      "item": "createaddition:creative_energy"
+    },
+    "M": {
+      "item": "kubejs:spatial_circuit"
+    },
+    "N": {
+      "item": "mysticalagradditions:molten_imperium_bucket"
+    },
+    "O": {
+      "item": "allthemodium:molten_vibranium_bucket"
+    }
+  },
+  "result": {
+    "item": "powah:energy_cell_creative"
+  }
+}).id('mekaminers:create_creative_fase/energy_cell_creative')
+event.custom({
+  "type": "create:mechanical_crafting",
+  "pattern": [
+    " AAAAAAA ",
+    "ABCDEDCFA",
+    "AGHEIEHGA",
+    "AGJICIJGA",
+    "AGJIKIJGA",
+    "AGJICIJGA",
+    "AGHEIEHGA",
+    "ALCDEDCMA",
+    " AAAAAAA "
+  ],
+  "key": {
+    "A": {
+      "item": "mekanism:induction_casing"
+    },
+    "B": {
+      "item": "mysticalagradditions:molten_imperium_bucket"
+    },
+    "C": {
+      "item": "mekanism:ultimate_energy_cube"
+    },
+    "D": {
+      "item": "kubejs:spatial_circuit_component_1"
+    },
+    "E": {
+      "item": "extendedcrafting:the_ultimate_ingot"
+    },
+    "F": {
+      "item": "allthemodium:molten_vibranium_bucket"
+    },
+    "G": {
+      "item": "extendedcrafting:elite_catalyst"
+    },
+    "H": {
+      "item": "kubejs:spatial_circuit_component_2"
+    },
+    "I": {
+      "item": "extendedcrafting:the_ultimate_catalyst"
+    },
+    "J": {
+      "item": "kubejs:spatial_circuit"
+    },
+    "K": {
+      "item": "powah:energy_cell_creative"
+    },
+    "L": {
+      "item": "allthemodium:soul_lava_bucket"
+    },
+    "M": {
+      "item": "allthemodium:molten_allthemodium_bucket"
+    }
+  },
+  "result": {
+    "type": "forge:nbt",
+    "item": "mekanism:creative_energy_cube",
+    "count": 1,
+    "nbt": "{mekData:{EnergyContainers:[{Container:0b,stored:\"18446744073709551615.9999\"}],componentConfig:{config0:{side0:4,side1:4,side2:4,side3:4,side4:4,side5:4},config6:{side0:4,side1:1,side2:1,side3:1,side4:1,side5:1},eject0:1b,eject6:0b},componentEjector:{color0:-1,color1:-1,color2:-1,color3:-1,color4:-1,color5:-1,strictInput:0b},controlType:0,owner:[I;1519398755,-512536600,-2140169168,372537850]}}"
+  }
+}).id('mekaminers:create_creative_fase/creative_energy_cube')
+event.custom({
+  "type": "create:mechanical_crafting",
+  "pattern": [
+    "         ",
+    "         ",
+    "         ",
+    "ABBBBBBBA",
+    "ABBCDCBBA",
+    "AEEDFDEEA",
+    "AGGCDCGGA",
+    "AGGHIJGGA",
+    " AAAAAAA "
+  ],
+  "key": {
+    "A": {
+      "item": "botania:fabulous_pool"
+    },
+    "B": {
+      "item": "extendedcrafting:crystaltine_ingot"
+    },
+    "C": {
+      "item": "extendedcrafting:the_ultimate_catalyst"
+    },
+    "D": {
+      "type": "forge:nbt",
+      "item": "botania:mana_tablet",
+      "count": 1,
+      "nbt": "{mana:500000}"
+    },
+    "E": {
+      "item": "kubejs:spatial_circuit_component_2"
+    },
+    "F": {
+      "type": "forge:nbt",
+      "item": "botania:mana_tablet",
+      "count": 1,
+      "nbt": "{creative:1b,mana:500000}"
+    },
+    "G": {
+      "item": "botania:blacker_lotus"
+    },
+    "H": {
+      "item": "allthemodium:soul_lava_bucket"
+    },
+    "I": {
+      "item": "allthemodium:molten_vibranium_bucket"
+    },
+    "J": {
+      "item": "mysticalagradditions:molten_imperium_bucket"
+    }
+  },
+  "result": {
+    "item": "botania:creative_pool"
+  }
+}).id('mekaminers:create_creative_fase/creative_pool')
+event.custom({
+  "type": "create:mechanical_crafting",
+  "pattern": [
+    "  AAAAA  ",
+    " BCCDEEF ",
+    "GBCDDDEFG",
+    "GBDDHDDFG",
+    "GBDDIDDFG",
+    "GBDDHDDFG",
+    "GBEDDDCFG",
+    " BEEDCCF ",
+    "  AAAAA  "
+  ],
+  "key": {
+    "A": {
+      "item": "extendedcrafting:crystaltine_ingot"
+    },
+    "B": {
+      "item": "allthemodium:unobtainium_vibranium_alloy_ingot"
+    },
+    "C": {
+      "item": "kubejs:spatial_circuit_component_1"
+    },
+    "D": {
+      "item": "thermal:machine_efficiency_augment"
+    },
+    "E": {
+      "item": "kubejs:spatial_circuit"
+    },
+    "F": {
+      "item": "allthemodium:unobtainium_allthemodium_alloy_ingot"
+    },
+    "G": {
+      "item": "extendedcrafting:the_ultimate_ingot"
+    },
+    "H": {
+      "item": "extendedcrafting:the_ultimate_catalyst"
+    },
+    "I": {
+      "item": "mysticalagradditions:creative_essence"
+    }
+  },
+  "result": {
+    "item": "thermal:machine_efficiency_creative_augment"
+  }
+}).id('mekaminers:create_creative_fase/machine_efficiency_creative_augment')
+event.custom({
+  "type": "extendedcrafting:shaped_table",
+  "pattern": [
+    "  AAAAA  ",
+    " ABCDCBA ",
+    " ABCECBA ",
+    " ACFGHCA ",
+    " ACIJICA ",
+    " ACFGHCA ",
+    " ABCKCBA ",
+    " ABCDCBA ",
+    "  AAAAA  "
+  ],
+  "key": {
+    "A": {
+      "item": "mysticalagriculture:unattuned_augment"
+    },
+    "B": {
+      "item": "extendedcrafting:the_ultimate_catalyst"
+    },
+    "C": {
+      "item": "mysticalagradditions:insanium_essence"
+    },
+    "D": {
+      "item": "allthemodium:unobtainium_vibranium_alloy_ingot"
+    },
+    "E": {
+      "item": "allthemodium:soul_lava_bucket"
+    },
+    "F": {
+      "item": "allthemodium:vibranium_allthemodium_alloy_ingot"
+    },
+    "G": {
+      "item": "extendedcrafting:elite_catalyst"
+    },
+    "H": {
+      "item": "allthemodium:unobtainium_allthemodium_alloy_ingot"
+    },
+    "I": {
+      "item": "kubejs:spatial_circuit"
+    },
+    "J": {
+      "item": "angelring:diamond_ring"
+    },
+    "K": {
+      "item": "mysticalagradditions:molten_imperium_bucket"
+    }
+  },
+  "result": {
+    "item": "mysticalagriculture:flight_augment"
+  }
+}).id('mekaminers:create_creative_fase/flight_augment')
+event.custom({
+  "type": "extendedcrafting:shaped_table",
+  "pattern": [
+    "  AAAAA  ",
+    " ABCCCBA ",
+    "ABDEEEDBA",
+    "ACFDEDFCA",
+    "ACGGHGGCA",
+    "ACFDIDFCA",
+    "ABDIIIDBA",
+    " ABCCCBA ",
+    "  AAAAA  "
+  ],
+  "key": {
+    "A": {
+      "item": "pneumaticcraft:pressure_chamber_wall"
+    },
+    "B": {
+      "item": "extendedcrafting:elite_catalyst"
+    },
+    "C": {
+      "item": "kubejs:spatial_circuit_component_1"
+    },
+    "D": {
+      "item": "extendedcrafting:the_ultimate_catalyst"
+    },
+    "E": {
+      "item": "allthemodium:vibranium_allthemodium_alloy_ingot"
+    },
+    "F": {
+      "item": "mysticalagradditions:insanium_essence"
+    },
+    "G": {
+      "item": "kubejs:spatial_circuit"
+    },
+    "H": {
+      "item": "mysticalagradditions:creative_essence"
+    },
+    "I": {
+      "item": "allthemodium:unobtainium_vibranium_alloy_ingot"
+    }
+  },
+  "result": {
+    "item": "pneumaticcraft:creative_compressor"
+  }
+}).id('mekaminers:create_creative_fase/creative_compressor')
+event.custom({
+  "type": "extendedcrafting:shaped_table",
+  "pattern": [
+    " AAAAAAA ",
+    "ABCDEFCGA",
+    "ACDHHHFCA",
+    "ADHHIHHFA",
+    "AJHIKIHLA",
+    "AFHHIHHDA",
+    "ACFHHHDCA",
+    "AGCFMDCBA",
+    " AAAAAAA "
+  ],
+  "key": {
+    "A": {
+      "item": "botania:fabulous_pool"
+    },
+    "B": {
+      "item": "kubejs:spatial_circuit"
+    },
+    "C": {
+      "item": "mysticalagradditions:insanium_essence"
+    },
+    "D": {
+      "item": "allthemodium:unobtainium_vibranium_alloy_ingot"
+    },
+    "E": {
+      "item": "mysticalagradditions:molten_imperium_bucket"
+    },
+    "F": {
+      "item": "allthemodium:vibranium_allthemodium_alloy_ingot"
+    },
+    "G": {
+      "item": "kubejs:spatial_circuit_component_1"
+    },
+    "H": {
+      "item": "extendedcrafting:crystaltine_ingot"
+    },
+    "I": {
+      "item": "extendedcrafting:the_ultimate_catalyst"
+    },
+    "J": {
+      "item": "allthemodium:molten_vibranium_bucket"
+    },
+    "K": {
+      "item": "mysticalagradditions:creative_essence"
+    },
+    "L": {
+      "item": "allthemodium:molten_allthemodium_bucket"
+    },
+    "M": {
+      "item": "allthemodium:soul_lava_bucket"
+    }
+  },
+  "result": {
+    "type": "forge:nbt",
+    "item": "botania:mana_tablet",
+    "count": 1,
+    "nbt": "{creative:1b,mana:500000}"
+  }
+}).id('mekaminers:create_creative_fase/mana_tablet')
+event.custom({
+  "type": "extendedcrafting:shaped_table",
+  "pattern": [
+    "  AAAAA  ",
+    " ABCDEBA ",
+    "ABCFFFEBA",
+    "ABGHDHGBA",
+    "AIJHKHJIA",
+    "ABGHDHGBA",
+    "ABEFFFCBA",
+    " ABEDCBA ",
+    "  AAAAA  "
+  ],
+  "key": {
+    "A": {
+      "item": "create:railway_casing"
+    },
+    "B": {
+      "item": "extendedcrafting:crystaltine_ingot"
+    },
+    "C": {
+      "item": "allthemodium:unobtainium_vibranium_alloy_ingot"
+    },
+    "D": {
+      "item": "kubejs:spatial_circuit_component_1"
+    },
+    "E": {
+      "item": "allthemodium:unobtainium_allthemodium_alloy_ingot"
+    },
+    "F": {
+      "item": "kubejs:spatial_circuit"
+    },
+    "G": {
+      "item": "mysticalagradditions:insanium_essence"
+    },
+    "H": {
+      "item": "extendedcrafting:the_ultimate_catalyst"
+    },
+    "I": {
+      "item": "kubejs:spatial_circuit_component_2"
+    },
+    "J": {
+      "item": "allthemodium:vibranium_allthemodium_alloy_ingot"
+    },
+    "K": {
+      "item": "mysticalagradditions:creative_essence"
+    }
+  },
+  "result": {
+    "item": "create:creative_motor"
+  }
+}).id('mekaminers:create_creative_fase/creative_motor')
+event.custom({
+  "type": "extendedcrafting:shaped_table",
+  "pattern": [
+    "   ABA   ",
+    "  ACDEA  ",
+    " AFGHIJA ",
+    "AKLMFNOPA",
+    "AQRSTUVWA",
+    "AXYZabcdA",
+    " AefghiA ",
+    "  AjklA  ",
+    "   AmA   "
+  ],
+  "key": {
+    "A": {
+      "item": "mekamod:tablist"
+    },
+    "B": {
+      "item": "create:chocolate_glazed_berries"
+    },
+    "C": {
+      "item": "farmersdelight:chicken_sandwich"
+    },
+    "D": {
+      "item": "farmersdelight:steak_and_potatoes"
+    },
+    "E": {
+      "item": "farmersdelight:vegetable_noodles"
+    },
+    "F": {
+      "item": "farmersdelight:dog_food"
+    },
+    "G": {
+      "item": "farmersdelight:beef_patty"
+    },
+    "H": {
+      "item": "farmersdelight:horse_feed"
+    },
+    "I": {
+      "item": "farmersdelight:cooked_chicken_cuts"
+    },
+    "J": {
+      "item": "farmersdelight:rice_roll_medley_block"
+    },
+    "K": {
+      "item": "farmersdelight:melon_popsicle"
+    },
+    "L": {
+      "item": "farmersdelight:chocolate_pie"
+    },
+    "M": {
+      "item": "farmersdelight:roast_chicken_block"
+    },
+    "N": {
+      "item": "farmersdelight:hamburger"
+    },
+    "O": {
+      "item": "farmersdelight:cake_slice"
+    },
+    "P": {
+      "item": "create:sweet_roll"
+    },
+    "Q": {
+      "item": "farmersdelight:glow_berry_custard"
+    },
+    "R": {
+      "item": "farmersdelight:grilled_salmon"
+    },
+    "S": {
+      "item": "farmersdelight:cooked_salmon_slice"
+    },
+    "T": {
+      "item": "mysticalagradditions:creative_essence"
+    },
+    "U": {
+      "item": "farmersdelight:cooked_cod_slice"
+    },
+    "V": {
+      "item": "farmersdelight:chocolate_pie_slice"
+    },
+    "W": {
+      "item": "create:blaze_cake"
+    },
+    "X": {
+      "item": "farmersdelight:honey_cookie"
+    },
+    "Y": {
+      "item": "farmersdelight:sweet_berry_cookie"
+    },
+    "Z": {
+      "item": "farmersdelight:apple_pie"
+    },
+    "a": {
+      "item": "farmersdelight:smoked_ham"
+    },
+    "b": {
+      "item": "farmersdelight:sweet_berry_cheesecake"
+    },
+    "c": {
+      "item": "farmersdelight:sweet_berry_cheesecake_slice"
+    },
+    "d": {
+      "item": "create:blaze_cake_base"
+    },
+    "e": {
+      "item": "farmersdelight:salmon_roll"
+    },
+    "f": {
+      "item": "farmersdelight:cooked_bacon"
+    },
+    "g": {
+      "item": "farmersdelight:cooked_mutton_chops"
+    },
+    "h": {
+      "item": "farmersdelight:apple_pie_slice"
+    },
+    "i": {
+      "item": "farmersdelight:shepherds_pie_block"
+    },
+    "j": {
+      "item": "farmersdelight:stuffed_pumpkin_block"
+    },
+    "k": {
+      "item": "farmersdelight:kelp_roll_slice"
+    },
+    "l": {
+      "item": "farmersdelight:honey_glazed_ham_block"
+    },
+    "m": {
+      "item": "create:honeyed_apple"
+    }
+  },
+  "result": {
+    "item": "create:creative_blaze_cake"
+  }
+}).id('mekaminers:create_creative_fase/creative_blaze_cake')
+event.custom({
+  "type": "extendedcrafting:shaped_table",
+  "pattern": [
+    "  AAAAA  ",
+    " ABCCCDA ",
+    "AEEFFFFGA",
+    "AEHIJIFFA",
+    "AFHIKIHFA",
+    "AFFIJIHEA",
+    "ALFFFFEEA",
+    " ADMMMBA ",
+    "  AAAAA  "
+  ],
+  "key": {
+    "A": {
+      "item": "extendedcrafting:crystaltine_ingot"
+    },
+    "B": {
+      "item": "kubejs:spatial_circuit_component_1"
+    },
+    "C": {
+      "item": "allthemodium:unobtainium_vibranium_alloy_ingot"
+    },
+    "D": {
+      "item": "kubejs:spatial_circuit"
+    },
+    "E": {
+      "item": "extendedcrafting:elite_catalyst"
+    },
+    "F": {
+      "item": "mysticalagradditions:insanium_essence"
+    },
+    "G": {
+      "item": "mysticalagradditions:molten_imperium_bucket"
+    },
+    "H": {
+      "item": "botania:gaia_ingot"
+    },
+    "I": {
+      "item": "allthemodium:vibranium_allthemodium_alloy_ingot"
+    },
+    "J": {
+      "item": "extendedcrafting:the_ultimate_catalyst"
+    },
+    "K": {
+      "item": "mysticalagradditions:creative_essence"
+    },
+    "L": {
+      "item": "allthemodium:soul_lava_bucket"
+    },
+    "M": {
+      "item": "allthemodium:unobtainium_allthemodium_alloy_ingot"
+    }
+  },
+  "result": {
+    "item": "angelring:diamond_ring"
+  }
+}).id('mekaminers:create_creative_fase/diamond_ring')
+event.custom({
+  "type": "extendedcrafting:shaped_table",
+  "pattern": [
+    "  AAAAA  ",
+    " ABBCBBA ",
+    "ADEFGFEDA",
+    "ADFHIHFDA",
+    "AJFIKIFJA",
+    "ADFHIHFDA",
+    "ADEFLFEDA",
+    " ABBMBBA ",
+    "  AAAAA  "
+  ],
+  "key": {
+    "A": {
+      "item": "allthemodium:unobtainium_allthemodium_alloy_ingot"
+    },
+    "B": {
+      "item": "extendedcrafting:elite_catalyst"
+    },
+    "C": {
+      "item": "allthemodium:molten_allthemodium_bucket"
+    },
+    "D": {
+      "item": "mysticalagradditions:insanium_essence"
+    },
+    "E": {
+      "item": "kubejs:spatial_circuit"
+    },
+    "F": {
+      "item": "extendedcrafting:crystaltine_ingot"
+    },
+    "G": {
+      "item": "mysticalagradditions:molten_imperium_bucket"
+    },
+    "H": {
+      "item": "extendedcrafting:the_ultimate_ingot"
+    },
+    "I": {
+      "item": "extendedcrafting:the_ultimate_catalyst"
+    },
+    "J": {
+      "item": "kubejs:spatial_circuit_component_1"
+    },
+    "K": {
+      "item": "angelring:diamond_ring"
+    },
+    "L": {
+      "item": "allthemodium:molten_vibranium_bucket"
+    },
+    "M": {
+      "item": "allthemodium:soul_lava_bucket"
+    }
+  },
+  "result": {
+    "item": "angelring:angel_ring"
+  }
+}).id('mekaminers:create_creative_fase/angel_ring')
+event.remove({output: "aeinfinitybooster:infinity_card"})
+event.custom({
+  "type": "extendedcrafting:shaped_table",
+  "pattern": [
+    "         ",
+    "         ",
+    "  ABCBA  ",
+    "  BADAB  ",
+    "  CDEDC  ",
+    "  BADAB  ",
+    "  ABCBA  ",
+    "         ",
+    "         "
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:nether_star"
+    },
+    "B": {
+      "item": "kubejs:activation_circuit"
+    },
+    "C": {
+      "item": "mekamod:meka_ingot"
+    },
+    "D": {
+      "item": "ae2:wireless_booster"
+    },
+    "E": {
+      "item": "extendedcrafting:ultimate_singularity"
+    }
+  },
+  "result": {
+    "item": "aeinfinitybooster:infinity_card"
+  }
+}).id('mekaminers:create_fase_wireless/infinity_card')
+event.remove({output: "aeinfinitybooster:dimension_card"})
+event.custom({
+  "type": "extendedcrafting:shaped_table",
+  "pattern": [
+    "         ",
+    "         ",
+    "  ABCBA  ",
+    "  BADAB  ",
+    "  EFGFE  ",
+    "  BADAB  ",
+    "  ABCBA  ",
+    "         ",
+    "         "
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:nether_star"
+    },
+    "B": {
+      "item": "mekamod:meka_ingot"
+    },
+    "C": {
+      "item": "mysticalagradditions:insanium_ingot"
+    },
+    "D": {
+      "item": "aeinfinitybooster:infinity_card"
+    },
+    "E": {
+      "item": "kubejs:spatial_circuit"
+    },
+    "F": {
+      "item": "industrialforegoing:machine_frame_supreme"
+    },
+    "G": {
+      "item": "extendedcrafting:ultimate_singularity"
+    }
+  },
+  "result": {
+    "item": "aeinfinitybooster:dimension_card"
+  }
+}).id('mekaminers:create_fase_wireless/dimension_card')
+event.remove({output:"industrialforegoing:infinity_trident"})
+event.custom({
+  "type": "extendedcrafting:shaped_table",
+  "pattern": [
+    "         ",
+    "         ",
+    "  ABCDA  ",
+    "  ECFCG  ",
+    "  HIJIH  ",
+    "  GCFCE  ",
+    "  ADCBA  ",
+    "         ",
+    "         "
+  ],
+  "key": {
+    "A": {
+      "item": "industrialforegoing:pink_slime_ingot"
+    },
+    "B": {
+      "item": "mekanism:ultimate_energy_cube"
+    },
+    "C": {
+      "item": "industrialforegoing:plastic"
+    },
+    "D": {
+      "item": "powah:battery_nitro"
+    },
+    "E": {
+      "item": "kubejs:start_mechanism"
+    },
+    "F": {
+      "item": "minecraft:nether_star"
+    },
+    "G": {
+      "item": "kubejs:initiated_mechanism"
+    },
+    "H": {
+      "item": "industrialforegoing:machine_frame_supreme"
+    },
+    "I": {
+      "type": "forge:nbt",
+      "item": "deeperdarker:soul_elytra",
+      "count": 1,
+      "nbt": "{Damage:0}"
+    },
+    "J": {
+      "type": "forge:nbt",
+      "item": "minecraft:trident",
+      "count": 1,
+      "nbt": "{Damage:0}"
+    }
+  },
+  "result": {
+    "type": "forge:nbt",
+    "item": "industrialforegoing:infinity_trident",
+    "count": 1,
+    "nbt": "{CanCharge:1b,Channeling:0b,Energy:0L,Fluid:{Amount:0,FluidName:\"biofuel\"},Loyalty:0,Riptide:0,Selected:\"POOR\",Special:0b}"
+  }
+}).id('mekaminers:create_fase_infinity_tools/infinity_trident')
+event.custom({
+  "type": "extendedcrafting:shaped_table",
+  "pattern": [
+    "         ",
+    "         ",
+    "    A    ",
+    "   BCD   ",
+    "  CEFEC  ",
+    "   DCB   ",
+    "    A    ",
+    "         ",
+    "         "
+  ],
+  "key": {
+    "A": {
+      "item": "kubejs:initiated_mechanism"
+    },
+    "B": {
+      "item": "industrialforegoing:pink_slime_ingot"
+    },
+    "C": {
+      "item": "industrialforegoing:plastic"
+    },
+    "D": {
+      "item": "industrialforegoing:machine_frame_supreme"
+    },
+    "E": {
+      "item": "minecraft:nether_star"
+    },
+    "F": {
+      "item": "allthemodium:unobtainium_pickaxe"
+    }
+  },
+  "results": {
+      "type": "forge:nbt",
+      "item": "industrialforegoing:infinity_drill",
+      "count": 1,
+      "nbt": "{CanCharge:1b,Channeling:0b,Energy:9223372036854775807L,Fluid:{Amount:1000000,FluidName:\"biofuel\"},Loyalty:0,Riptide:0,Selected:\"ARTIFACT\",Special:1b}"
+    }
+}).id('mekaminers:create_fase_infinity_tools/infinity_drill')
+event.custom({
+  "type": "extendedcrafting:shaped_table",
+  "pattern": [
+    "         ",
+    "         ",
+    "    A    ",
+    "   ABA   ",
+    "  CDEDC  ",
+    "   ABA   ",
+    "    A    ",
+    "         ",
+    "         "
+  ],
+  "key": {
+    "A": {
+      "item": "industrialforegoing:plastic"
+    },
+    "B": {
+      "item": "minecraft:nether_star"
+    },
+    "C": {
+      "item": "industrialforegoing:machine_frame_supreme"
+    },
+    "D": {
+      "item": "kubejs:initiated_mechanism"
+    },
+    "E": {
+      "item": "allthemodium:unobtainium_axe"
+    }
+  },
+  "results": {
+    "type": "forge:nbt",
+    "item": "industrialforegoing:infinity_saw",
+    "count": 1,
+    "nbt": "{CanCharge:1b,Channeling:0b,Energy:0L,Fluid:{Amount:0,FluidName:\"biofuel\"},Loyalty:0,Riptide:0,Selected:\"POOR\",Special:0b}"
+  }
+}).id('mekaminers:create_fase_infinity_tools/infinity_saw')
+event.custom({
+  "type": "extendedcrafting:shaped_table",
+  "pattern": [
+    "         ",
+    "         ",
+    "         ",
+    "   ABA   ",
+    "   CDC   ",
+    "   BEB   ",
+    "         ",
+    "         ",
+    "         "
+  ],
+  "key": {
+    "A": {
+      "item": "kubejs:initiated_mechanism"
+    },
+    "B": {
+      "item": "industrialforegoing:plastic"
+    },
+    "C": {
+      "item": "industrialforegoing:machine_frame_supreme"
+    },
+    "D": {
+      "item": "allthemodium:unobtainium_sword"
+    },
+    "E": {
+      "item": "minecraft:nether_star"
+    }
+  },
+  "results": {
+    "type": "forge:nbt",
+    "item": "industrialforegoing:infinity_hammer",
+    "count": 1,
+    "nbt": "{CanCharge:1b,Channeling:0b,Energy:0L,Fluid:{Amount:0,FluidName:\"biofuel\"},Loyalty:0,Riptide:0,Selected:\"POOR\",Special:0b}"
+  }
+}).id('mekaminers:create_fase_infinity_tools/infinity_hammer')
+event.custom({
+  "type": "extendedcrafting:shaped_table",
+  "pattern": [
+    "         ",
+    "      A  ",
+    "     BCB ",
+    "     DA  ",
+    "    D    ",
+    "   D     ",
+    "         ",
+    "         ",
+    "         "
+  ],
+  "key": {
+    "A": {
+      "item": "extendedcrafting:ender_star"
+    },
+    "B": {
+      "item": "extendedcrafting:flux_star"
+    },
+    "C": {
+      "item": "minecraft:nether_star"
+    },
+    "D": {
+      "item": "mysticalagradditions:insanium_ingot"
+    }
+  },
+  "result": {
+    "type": "forge:nbt",
+    "item": "constructionwand:infinity_wand",
+    "count": 1,
+    "nbt": "{wand_options:{}}"
   }
 })
 })

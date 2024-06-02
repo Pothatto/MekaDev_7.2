@@ -79,7 +79,7 @@ ServerEvents.recipes(event =>{
               }
             ],
             "output": "ad_astra:tier_1_rocket"
-}),
+}).id('mekaminers:create_fase_spatial/tier_1_rocket')
 event.remove
 ({output:
     "ad_astra:launch_pad"
@@ -106,7 +106,7 @@ event.custom({
         "result": {
           "item": "ad_astra:launch_pad"
         }
-})
+}).id('mekaminers:create_fase_spatial/launch_pad')
 event.remove({
     output:"ad_astra:tier_2_rocket"
 })
@@ -185,7 +185,165 @@ event.custom({
           }
         ],
         "output": "ad_astra:tier_2_rocket"
+}).id('mekaminers:create_fase_spatial/tier_2_rocket')
+event.remove({
+  output:"ad_astra:tier_3_rocket"
 })
+event.custom({
+  "type": "ad_astra:nasa_workbench",
+  "ingredients": [
+    {
+      "ingredient": {
+        "item": "ad_astra:rocket_nose_cone"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "create:precision_mechanism"
+      }
+    },
+    {
+      "ingredient": {
+        "tag": "ad_astra_platform:ostrum_blocks"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "kubejs:activation_circuit"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "kubejs:activation_circuit"
+      }
+    },
+    {
+      "ingredient": {
+        "tag": "ad_astra_platform:ostrum_blocks"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "create:precision_mechanism"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "ad_astra:rocket_fin"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "ad_astra:ostrum_tank"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "ad_astra:ostrum_tank"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "ad_astra:rocket_fin"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "ad_astra:rocket_fin"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "ad_astra:ostrum_engine"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "ad_astra:rocket_fin"
+      }
+    }
+  ],
+  "output": "ad_astra:tier_3_rocket"
+}).id('mekaminers:create_fase_spatial/tier_3_rocket')
+event.remove({
+  output:"ad_astra:tier_4_rocket"
+})
+event.custom({
+  "type": "ad_astra:nasa_workbench",
+  "ingredients": [
+    {
+      "ingredient": {
+        "item": "ad_astra:rocket_nose_cone"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "kubejs:activation_circuit"
+      }
+    },
+    {
+      "ingredient": {
+        "tag": "ad_astra_platform:calorite_blocks"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "kubejs:spatial_circuit"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "kubejs:spatial_circuit"
+      }
+    },
+    {
+      "ingredient": {
+        "tag": "ad_astra_platform:calorite_blocks"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "kubejs:activation_circuit"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "ad_astra:rocket_fin"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "ad_astra:calorite_tank"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "ad_astra:calorite_tank"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "ad_astra:rocket_fin"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "ad_astra:rocket_fin"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "ad_astra:calorite_engine"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "ad_astra:rocket_fin"
+      }
+    }
+  ],
+  "output": "ad_astra:tier_4_rocket"
+}).id('mekaminers:create_fase_spatial/tier_4_rocket')
 event.custom({
         "type": "extendedcrafting:shaped_table",
         "pattern": [
@@ -204,40 +362,34 @@ event.custom({
             "item": "minecraft:gold_block"
           },
           "B": {
-            "item": "minecraft:grass_block",
-            "count": 64
+            "item": "minecraft:grass_block"
           },
           "C": {
             "item": "minecraft:water_bucket"
           },
           "D": {
-            "item": "minecraft:dirt",
-            "count": 64
+            "item": "minecraft:dirt"
           },
           "E": {
             "item": "botania:tiny_planet"
           },
           "F": {
-            "item": "minecraft:sand",
-            "count": 64
+            "item": "minecraft:sand"
           },
           "G": {
-            "item": "minecraft:clay",
-            "count": 64
+            "item": "minecraft:clay"
           },
           "H": {
-            "item": "minecraft:stone",
-            "count": 64
+            "item": "minecraft:stone"
           },
           "I": {
-            "item": "minecraft:gravel",
-            "count": 64
+            "item": "minecraft:gravel"
           }
         },
         "result": {
           "item": "ad_astra:earth_globe"
         }
-})
+}).id('mekaminers:create_fase_spatial/earth_globe')
 event.custom(
     {
         "type": "extendedcrafting:shaped_table",
@@ -258,25 +410,25 @@ event.custom(
           },
           "B": {
             "item": "ad_astra:moon_cobblestone",
-            "count": 64
+            "amount": 64
           },
           "C": {
             "item": "ad_astra:moon_stone",
-            "count": 64
+            "amount": 64
           },
           "D": {
             "item": "botania:tiny_planet"
           },
           "E": {
             "item": "ad_astra:moon_sand",
-            "count": 64
+            "amount": 64
           }
         },
         "result": {
           "item": "ad_astra:moon_globe"
         }
       }
-)
+).id('mekaminers:create_fase_spatial/moon_globe')
 event.custom(
     {
         "type": "extendedcrafting:shaped_table",
@@ -297,25 +449,25 @@ event.custom(
           },
           "B": {
             "item": "ad_astra:mars_cobblestone",
-            "count": 64
+            "amount": 64
           },
           "C": {
             "item": "ad_astra:mars_stone",
-            "count": 64
+            "amount": 64
           },
           "D": {
             "item": "botania:tiny_planet"
           },
           "E": {
             "item": "ad_astra:mars_sand",
-            "count": 64
+            "amount": 64
           }
         },
         "result": {
           "item": "ad_astra:mars_globe"
         }
       }
-)
+).id('mekaminers:create_fase_spatial/mars_globe')
 event.custom(
     {
         "type": "extendedcrafting:shaped_table",
@@ -336,25 +488,25 @@ event.custom(
           },
           "B": {
             "item": "ad_astra:mercury_cobblestone",
-            "count": 64
+            "amount": 64
           },
           "C": {
             "item": "ad_astra:mercury_stone",
-            "count": 64
+            "amount": 64
           },
           "D": {
             "item": "botania:tiny_planet"
           },
           "E": {
             "item": "ad_astra:mercury_stone_bricks",
-            "count": 64
+            "amount": 64
           }
         },
         "result": {
           "item": "ad_astra:mercury_globe"
         }
       }
-)
+).id('mekaminers:create_fase_spatial/mercury_globe')
 event.custom(
     {
         "type": "extendedcrafting:shaped_table",
@@ -375,27 +527,26 @@ event.custom(
           },
           "B": {
             "item": "ad_astra:venus_cobblestone",
-            "count": 64
+            "amount": 64
           },
           "C": {
             "item": "ad_astra:venus_sandstone",
-            "count": 64
+            "amount": 64
           },
           "D": {
             "item": "botania:tiny_planet"
           },
           "E": {
             "item": "ad_astra:venus_sand",
-            "count": 64
+            "amount": 64
           }
         },
         "result": {
           "item": "ad_astra:venus_globe"
         }
       }
-)
-event.custom(
-    {
+).id('mekaminers:create_fase_spatial/venus_globe')
+event.custom({
         "type": "extendedcrafting:shaped_table",
         "pattern": [
           "AAAAA    ",
@@ -414,27 +565,26 @@ event.custom(
           },
           "B": {
             "item": "ad_astra:glacio_cobblestone",
-            "count": 64
+            "amount": 64
           },
           "C": {
             "item": "minecraft:blue_ice",
-            "count": 64
+            "amount": 64
           },
           "D": {
             "item": "ad_astra:glacio_stone",
-            "count": 64
+            "amount": 64
           },
           "E": {
             "item": "botania:tiny_planet"
           },
           "F": {
             "item": "powah:dry_ice",
-            "count": 64
+            "amount": 64
           }
         },
         "result": {
           "item": "ad_astra:glacio_globe"
         }
-      }
-)
+}).id('mekaminers:create_fase_spatial/glacio_globe')
 })

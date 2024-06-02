@@ -3,34 +3,34 @@ ServerEvents.recipes(event =>{
     {"type": "botania:mana_infusion",
     "input": {"item": "extendedcrafting:ultimate_singularity"},
     "mana": 500000,
-    "output": {"amount": 32,"item": "extendedcrafting:the_ultimate_ingot"}
-})
+    "output": {"amount": 8,"item": "extendedcrafting:the_ultimate_ingot"}
+}).id('mekaminers:create_fase_4/the_ultimate_ingot')
 //The ultimate ingot
 event.custom(
     {"type": "botania:mana_infusion",
     "input": {"item": "allthemodium:vibranium_allthemodium_alloy_dust"},
     "mana": 100000,
     "output": {"amount": 1,"item": "allthemodium:vibranium_allthemodium_alloy_ingot"}
-})
+}).id('mekaminers:create_fase_4/vibranium_allthemodium_alloy_ingot')
 //Vibranium ingot
 event.custom(
     {"type": "botania:mana_infusion",
     "input": {"item": "allthemodium:unobtainium_allthemodium_alloy_dust"},
     "mana": 100000,
     "output": {"amount": 1,"item": "allthemodium:unobtainium_allthemodium_alloy_ingot"}
-})
+}).id('mekaminers:create_fase_4/unobtainium_allthemodium_alloy_ingot')
 //Unobtainium ingot
 event.custom(
     {"type": "botania:mana_infusion",
     "input": {"item": "allthemodium:unobtainium_vibranium_alloy_dust"},
     "mana": 100000,
     "output": {"amount": 1,"item": "allthemodium:unobtainium_vibranium_alloy_ingot"}
-})
+}).id('mekaminers:create_fase_4/unobtainium_vibranium_alloy_ingot')
 //Unobitainium-Vibranium ingot
 event.remove({output:"extendedcrafting:ultimate_singularity"})
 event.custom(
     {
-        "type": "extendedcrafting:shaped_table",
+        "type": "create:mechanical_crafting",
         "pattern": [
           "         ",
           "ABCDEFGHI",
@@ -216,13 +216,13 @@ event.custom(
           "item": "extendedcrafting:ultimate_singularity"
         }
       }
-)
+).id('mekaminers:create_fase_4/ultimate_singularity')
 event.remove({output:
   "extendedcrafting:crystaltine_ingot"
 })
 event.custom(
   {
-    "type": "extendedcrafting:shaped_table",
+    "type": "create:mechanical_crafting",
     "pattern": [
       "         ",
       "AAAAAAAAA",
@@ -288,5 +288,5 @@ event.custom(
       "item": "extendedcrafting:crystaltine_ingot"
     }
   }
-)
+).id('mekaminers:create_creative_fase/crystaltine_ingot')
 })

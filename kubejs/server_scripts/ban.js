@@ -53,8 +53,16 @@ ServerEvents.recipes(event =>{
      'megacells:bulk_cell_component',
      'megacells:bulk_item_cell',
      'reliquary:rod_of_lyssa',
-     'buildinggadgets2:gadget_destruction'
-    ]
+     'buildinggadgets2:gadget_destruction',
+     'create:schematicannon',
+     'create:schematic_table',
+     'create:crafting_blueprint',
+     'create:empty_schematic',
+     'create:schematic_and_quill',
+     'botania:laputa_shard',
+     'pneumaticcraft:elytra_upgrade',
+     
+        ]
     ban.forEach(banidos =>{
         event.remove({output:`${banidos}`})
     })

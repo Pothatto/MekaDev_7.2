@@ -1,5 +1,7 @@
 {
     "ModSettings": {
+        "sort_at_cursor": false,
+        "move_all_at_cursor": false,
         "first_run": false
     },
     "GuiSettings": {
@@ -21,6 +23,23 @@
         },
         "show_move_all_button": {
             "value": false
+        }
+    },
+    "Hotkeys": {
+        "sort_inventory": {
+            "main": {
+                "keys": ""
+            }
+        },
+        "scroll_to_chest": {
+            "main": {
+                "keys": ""
+            }
+        },
+        "scroll_to_inventory": {
+            "main": {
+                "keys": ""
+            }
         }
     }
 }
