@@ -8,7 +8,6 @@ ServerEvents.recipes(event =>{
      'mekanism:upgrade_anchor',
      'thermal:glowstone_tnt', 
      'thermal:redstone_tnt',
-     'botania:flight_tiara',
      'mekanism:module_gravitational_modulating_unit',
      'rftoolsutility:flight_module',
      'mysticalagriculture:flight_augment',
@@ -83,4 +82,8 @@ ServerEvents.recipes(event =>{
 //Gold Coin 
 event.remove({id:'thermal:machines/press/press_gold_ingot_to_coin'})
 event.remove({id:'thermal:machines/press/press_gold_nugget_to_coin'})
+
+//Dreadsteel and angelring mod
+event.remove({mod:'dreadsteel'})
+event.remove({mod:'angelring'})
 })

@@ -2402,7 +2402,7 @@ event.custom({
     "item": "kubejs:incomplete_precision_mechanism_component_1"
   }
 }).id('mekaminers:create_fase_4/precision_mechanism_component_1')
-event.remove({output:"create:sequenced_assembly/precision_mechanism"})
+event.remove({output:"create:precision_mechanism"})
 event.custom({
   "type": "create:sequenced_assembly",
   "ingredient": {
@@ -3063,17 +3063,17 @@ event.custom({
   }
 }).id('mekaminers:create_fase_6/spatial_circuit')
 event.custom({
-  "type": "create:mechanical_crafting",
+  "type": "extendedcrafting:shaped_table",
   "pattern": [
     "  ABCBA  ",
     " ADEFEDA ",
     "AGDEEEDGA",
-    "GGDHIHDGG",
-    "GGDHJHDGG",
-    "GGDHIHDGG",
-    "AGDKKKDGA",
-    " ADKLKDA ",
-    "  ABMBA  "
+    "GHDIJIDHG",
+    "GHDIKIDHG",
+    "GHDIJIDHG",
+    "AGDLLLDGA",
+    " ADLMLDA ",
+    "  ABNBA  "
   ],
   "key": {
     "A": {
@@ -3098,21 +3098,24 @@ event.custom({
       "item": "extendedcrafting:crystaltine_ingot"
     },
     "H": {
-      "item": "extendedcrafting:the_ultimate_ingot"
+      "item": "dreadsteel:dreadsteel_ingot"
     },
     "I": {
-      "item": "extendedcrafting:the_ultimate_catalyst"
+      "item": "extendedcrafting:the_ultimate_ingot"
     },
     "J": {
-      "item": "mysticalagradditions:insanium_essence"
+      "item": "extendedcrafting:the_ultimate_catalyst"
     },
     "K": {
-      "item": "allthemodium:unobtainium_vibranium_alloy_ingot"
+      "item": "mysticalagradditions:insanium_essence"
     },
     "L": {
-      "item": "allthemodium:molten_unobtainium_bucket"
+      "item": "allthemodium:unobtainium_vibranium_alloy_ingot"
     },
     "M": {
+      "item": "allthemodium:molten_unobtainium_bucket"
+    },
+    "N": {
       "item": "kubejs:spatial_circuit"
     }
   },
@@ -4002,7 +4005,7 @@ event.custom({
   }
 }).id('mekaminers:create_creative_fase/diamond_ring')
 event.custom({
-  "type": "create:mechanical_crafting",
+  "type": "extendedcrafting:shaped_table",
   "pattern": [
     "  AAAAA  ",
     " ABBCBBA ",
@@ -4046,7 +4049,7 @@ event.custom({
       "item": "kubejs:spatial_circuit_component_1"
     },
     "K": {
-      "item": "angelring:diamond_ring"
+      "item": "angelring:resonant_angel_ring"
     },
     "L": {
       "item": "allthemodium:molten_vibranium_bucket"
@@ -4095,177 +4098,5 @@ event.custom({
   }
 }).id('mekaminers:create_fase_wireless/infinity_card')
 event.remove({output: "aeinfinitybooster:dimension_card"})
-event.custom({
-  "type": "create:mechanical_crafting",
-  "pattern": [
-    "         ",
-    "         ",
-    "  ABCBA  ",
-    "  BADAB  ",
-    "  EFGFE  ",
-    "  BADAB  ",
-    "  ABCBA  ",
-    "         ",
-    "         "
-  ],
-  "key": {
-    "A": {
-      "item": "minecraft:nether_star"
-    },
-    "B": {
-      "item": "mekamod:meka_ingot"
-    },
-    "C": {
-      "item": "mysticalagradditions:insanium_ingot"
-    },
-    "D": {
-      "item": "aeinfinitybooster:infinity_card"
-    },
-    "E": {
-      "item": "kubejs:spatial_circuit"
-    },
-    "F": {
-      "item": "industrialforegoing:machine_frame_supreme"
-    },
-    "G": {
-      "item": "extendedcrafting:ultimate_singularity"
-    }
-  },
-  "result": {
-    "item": "aeinfinitybooster:dimension_card"
-  }
-}).id('mekaminers:create_fase_wireless/dimension_card')
-event.remove({output:"industrialforegoing:infinity_trident"})
-event.custom({
-  "type": "create:mechanical_crafting",
-  "pattern": [
-    "         ",
-    "         ",
-    "  ABCDA  ",
-    "  ECFCG  ",
-    "  HIJIH  ",
-    "  GCFCE  ",
-    "  ADCBA  ",
-    "         ",
-    "         "
-  ],
-  "key": {
-    "A": {
-      "item": "industrialforegoing:pink_slime_ingot"
-    },
-    "B": {
-      "item": "mekanism:ultimate_energy_cube"
-    },
-    "C": {
-      "item": "industrialforegoing:plastic"
-    },
-    "D": {
-      "item": "powah:battery_nitro"
-    },
-    "E": {
-      "item": "kubejs:start_mechanism"
-    },
-    "F": {
-      "item": "minecraft:nether_star"
-    },
-    "G": {
-      "item": "kubejs:initiated_mechanism"
-    },
-    "H": {
-      "item": "industrialforegoing:machine_frame_supreme"
-    },
-    "I": {
-      "type": "forge:nbt",
-      "item": "deeperdarker:soul_elytra",
-      "count": 1,
-      "nbt": "{Damage:0}"
-    },
-    "J": {
-      "type": "forge:nbt",
-      "item": "minecraft:trident",
-      "count": 1,
-      "nbt": "{Damage:0}"
-    }
-  },
-  "result": {
-    "type": "forge:nbt",
-    "item": "industrialforegoing:infinity_trident",
-    "count": 1,
-    "nbt": "{CanCharge:1b,Channeling:0b,Energy:0L,Fluid:{Amount:0,FluidName:\"biofuel\"},Loyalty:0,Riptide:0,Selected:\"POOR\",Special:0b}"
-  }
-}).id('mekaminers:create_fase_infinity_tools/infinity_trident')
-event.custom({
-  "type": "create:mechanical_crafting",
-  "pattern": [
-    "         ",
-    "      A  ",
-    "     BCB ",
-    "     DA  ",
-    "    D    ",
-    "   D     ",
-    "         ",
-    "         ",
-    "         "
-  ],
-  "key": {
-    "A": {
-      "item": "extendedcrafting:ender_star"
-    },
-    "B": {
-      "item": "extendedcrafting:flux_star"
-    },
-    "C": {
-      "item": "minecraft:nether_star"
-    },
-    "D": {
-      "item": "mysticalagradditions:insanium_ingot"
-    }
-  },
-  "result": {
-    "type": "forge:nbt",
-    "item": "constructionwand:infinity_wand",
-    "count": 1,
-    "nbt": "{wand_options:{}}"
-  }
-})
-event.custom({
-  "type": "extendedcrafting:shaped_table",
-  "pattern": [
-    "         ",
-    "         ",
-    "    A    ",
-    "   BCD   ",
-    "  CEFEC  ",
-    "   DCB   ",
-    "    A    ",
-    "         ",
-    "         "
-  ],
-  "key": {
-    "A": {
-      "item": "kubejs:initiated_mechanism"
-    },
-    "B": {
-      "item": "industrialforegoing:pink_slime_ingot"
-    },
-    "C": {
-      "item": "industrialforegoing:plastic"
-    },
-    "D": {
-      "item": "industrialforegoing:machine_frame_supreme"
-    },
-    "E": {
-      "item": "minecraft:nether_star"
-    },
-    "F": {
-      "item": "allthemodium:unobtainium_pickaxe"
-    }
-  },
-  "result": {
-    "type": "forge:nbt",
-    "item": "industrialforegoing:infinity_drill",
-    "count": 1,
-    "nbt": "{CanCharge:1b,Energy:0L,Fluid:{Amount:0,FluidName:\"biofuel\"},Selected:\"POOR\",Special:0b}"
-  }
-})
+
 })
