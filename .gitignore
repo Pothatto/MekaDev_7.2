@@ -32,3 +32,7 @@ defaultconfigs
 resourcepacks
 patchouli_books
 ESM
+config/oculus.properties
+config/powah.json5
+mods.rar
+.gitignore
