@@ -703,4 +703,5 @@ ServerEvents.recipes(event =>{
     ],
     "energy": 200000
     }).id('mekaminers:create_fase_2/liquid_blaze')
+
 })
