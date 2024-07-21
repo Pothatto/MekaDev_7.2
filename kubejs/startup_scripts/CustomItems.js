@@ -54,6 +54,10 @@ StartupEvents.registry('fluid', (fluid)=> {
     .bucketColor('#d47ed4')
 })
 
+StartupEvents.registry('fluid', (fluid)=> { 
+    fluid.create('liquid_blaze')
+    .bucketColor('#E9AC0C')
+})
 //Replacing Mod Names
-Platform.mods.kubejs.name = 'MekaMiners Rebirth: itens'
-Platform.mods.mekamod.name = 'mekaminers Rebirth: tools'
+Platform.mods.kubejs.name = 'MekaMiners Oceans: itens'
+Platform.mods.mekamod.name = 'Mekaminers Oceans: tools'

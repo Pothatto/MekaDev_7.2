@@ -345,246 +345,117 @@ event.custom({
   "output": "ad_astra:tier_4_rocket"
 }).id('mekaminers:create_fase_spatial/tier_4_rocket')
 event.custom({
-        "type": "extendedcrafting:shaped_table",
-        "pattern": [
-          "AAAAA    ",
-          "A   A    ",
-          "A  BCB   ",
-          "A  DEF   ",
-          "A  GHI   ",
-          "A        ",
-          "AAAAA    ",
-          "    A    ",
-          "   AAA   "
-        ],
-        "key": {
-          "A": {
-            "item": "minecraft:gold_block"
-          },
-          "B": {
-            "item": "minecraft:grass_block"
-          },
-          "C": {
-            "item": "minecraft:water_bucket"
-          },
-          "D": {
-            "item": "minecraft:dirt"
-          },
-          "E": {
-            "item": "botania:tiny_planet"
-          },
-          "F": {
-            "item": "minecraft:sand"
-          },
-          "G": {
-            "item": "minecraft:clay"
-          },
-          "H": {
-            "item": "minecraft:stone"
-          },
-          "I": {
-            "item": "minecraft:gravel"
-          }
-        },
-        "result": {
-          "item": "ad_astra:earth_globe"
-        }
+  "type": "botania:elven_trade",
+  "ingredients": [
+    {
+      "item": 'botania:tiny_planet'
+    },
+    {
+      "item": 'minecraft:gold_block'
+    },
+    {
+      "item": 'minecraft:grass_block'
+    },
+  ],
+  "output": [
+    {
+      "item": "ad_astra:earth_globe"
+    }
+  ]
 }).id('mekaminers:create_fase_spatial/earth_globe')
-event.custom(
-    {
-        "type": "extendedcrafting:shaped_table",
-        "pattern": [
-          "AAAAA    ",
-          "A   A    ",
-          "A  BBB   ",
-          "A  CDC   ",
-          "A  ECE   ",
-          "A        ",
-          "AAAAA    ",
-          "    A    ",
-          "   AAA   "
-        ],
-        "key": {
-          "A": {
-            "item": "minecraft:gold_block"
-          },
-          "B": {
-            "item": "ad_astra:moon_cobblestone",
-            "amount": 64
-          },
-          "C": {
-            "item": "ad_astra:moon_stone",
-            "amount": 64
-          },
-          "D": {
-            "item": "botania:tiny_planet"
-          },
-          "E": {
-            "item": "ad_astra:moon_sand",
-            "amount": 64
-          }
-        },
-        "result": {
-          "item": "ad_astra:moon_globe"
-        }
-      }
-).id('mekaminers:create_fase_spatial/moon_globe')
-event.custom(
-    {
-        "type": "extendedcrafting:shaped_table",
-        "pattern": [
-          "AAAAA    ",
-          "A   A    ",
-          "A  BBB   ",
-          "A  CDC   ",
-          "A  ECE   ",
-          "A        ",
-          "AAAAA    ",
-          "    A    ",
-          "   AAA   "
-        ],
-        "key": {
-          "A": {
-            "item": "minecraft:gold_block"
-          },
-          "B": {
-            "item": "ad_astra:mars_cobblestone",
-            "amount": 64
-          },
-          "C": {
-            "item": "ad_astra:mars_stone",
-            "amount": 64
-          },
-          "D": {
-            "item": "botania:tiny_planet"
-          },
-          "E": {
-            "item": "ad_astra:mars_sand",
-            "amount": 64
-          }
-        },
-        "result": {
-          "item": "ad_astra:mars_globe"
-        }
-      }
-).id('mekaminers:create_fase_spatial/mars_globe')
-event.custom(
-    {
-        "type": "extendedcrafting:shaped_table",
-        "pattern": [
-          "AAAAA    ",
-          "A   A    ",
-          "A  BBB   ",
-          "A  CDC   ",
-          "A  ECE   ",
-          "A        ",
-          "AAAAA    ",
-          "    A    ",
-          "   AAA   "
-        ],
-        "key": {
-          "A": {
-            "item": "minecraft:gold_block"
-          },
-          "B": {
-            "item": "ad_astra:mercury_cobblestone",
-            "amount": 64
-          },
-          "C": {
-            "item": "ad_astra:mercury_stone",
-            "amount": 64
-          },
-          "D": {
-            "item": "botania:tiny_planet"
-          },
-          "E": {
-            "item": "ad_astra:mercury_stone_bricks",
-            "amount": 64
-          }
-        },
-        "result": {
-          "item": "ad_astra:mercury_globe"
-        }
-      }
-).id('mekaminers:create_fase_spatial/mercury_globe')
-event.custom(
-    {
-        "type": "extendedcrafting:shaped_table",
-        "pattern": [
-          "AAAAA    ",
-          "A   A    ",
-          "A  BBB   ",
-          "A  CDC   ",
-          "A  ECE   ",
-          "A        ",
-          "AAAAA    ",
-          "    A    ",
-          "   AAA   "
-        ],
-        "key": {
-          "A": {
-            "item": "minecraft:gold_block"
-          },
-          "B": {
-            "item": "ad_astra:venus_cobblestone",
-            "amount": 64
-          },
-          "C": {
-            "item": "ad_astra:venus_sandstone",
-            "amount": 64
-          },
-          "D": {
-            "item": "botania:tiny_planet"
-          },
-          "E": {
-            "item": "ad_astra:venus_sand",
-            "amount": 64
-          }
-        },
-        "result": {
-          "item": "ad_astra:venus_globe"
-        }
-      }
-).id('mekaminers:create_fase_spatial/venus_globe')
 event.custom({
-        "type": "extendedcrafting:shaped_table",
-        "pattern": [
-          "AAAAA    ",
-          "A   A    ",
-          "A  BCB   ",
-          "A  DED   ",
-          "A  FDF   ",
-          "A        ",
-          "AAAAA    ",
-          "    A    ",
-          "   AAA   "
-        ],
-        "key": {
-          "A": {
-            "item": "minecraft:gold_block"
-          },
-          "B": {
-            "item": "ad_astra:glacio_cobblestone",
-            "amount": 64
-          },
-          "C": {
-            "item": "minecraft:blue_ice",
-            "amount": 64
-          },
-          "D": {
-            "item": "ad_astra:glacio_stone",
-            "amount": 64
-          },
-          "E": {
-            "item": "botania:tiny_planet"
-          },
-          "F": {
-            "item": "powah:dry_ice",
-            "amount": 64
-          }
-        },
-        "result": {
-          "item": "ad_astra:glacio_globe"
-        }
+  "type": "botania:elven_trade",
+  "ingredients": [
+    {
+      "item": 'botania:tiny_planet'
+    },
+    {
+      "item": 'minecraft:gold_block'
+    },
+    {
+      "item": 'ad_astra:moon_stone'
+    },
+  ],
+  "output": [
+    {
+      "item": "ad_astra:moon_globe"
+    }
+  ]
+}).id('mekaminers:create_fase_spatial/moon_globe')
+event.custom({
+  "type": "botania:elven_trade",
+  "ingredients": [
+    {
+      "item": 'botania:tiny_planet'
+    },
+    {
+      "item": 'minecraft:gold_block'
+    },
+    {
+      "item": 'ad_astra:mars_sand'
+    },
+  ],
+  "output": [
+    {
+      "item": "ad_astra:mars_globe"
+    }
+  ]
+}).id('mekaminers:create_fase_spatial/mars_globe')
+event.custom({
+  "type": "botania:elven_trade",
+  "ingredients": [
+    {
+      "item": 'botania:tiny_planet'
+    },
+    {
+      "item": 'minecraft:gold_block'
+    },
+    {
+      "item": 'ad_astra:mercury_stone_bricks'
+    },
+  ],
+  "output": [
+    {
+      "item": "ad_astra:mercury_globe"
+    }
+  ]
+}).id('mekaminers:create_fase_spatial/mercury_globe')
+event.custom({
+  "type": "botania:elven_trade",
+  "ingredients": [
+    {
+      "item": 'botania:tiny_planet'
+    },
+    {
+      "item": 'minecraft:gold_block'
+    },
+    {
+      "item": 'ad_astra:venus_sand'
+    },
+  ],
+  "output": [
+    {
+      "item": "ad_astra:venus_globe"
+    }
+  ]
+}).id('mekaminers:create_fase_spatial/venus_globe')
+event.custom({
+  "type": "botania:elven_trade",
+  "ingredients": [
+    {
+      "item": 'botania:tiny_planet'
+    },
+    {
+      "item": 'minecraft:gold_block'
+    },
+    {
+      "item": 'ad_astra:glacio_stone'
+    },
+  ],
+  "output": [
+    {
+      "item": "ad_astra:glacio_globe"
+    }
+  ]
 }).id('mekaminers:create_fase_spatial/glacio_globe')
 })

@@ -289,4 +289,510 @@ event.custom(
     }
   }
 ).id('mekaminers:create_creative_fase/crystaltine_ingot')
+//Draconic Evolution
+event.remove({output: "draconicevolution:basic_crafting_injector"})
+event.custom({
+  "type": "powah:energizing",
+  "ingredients": [
+    {"item": 'allthemodium:vibranium_allthemodium_alloy_ingot'},
+    {"item": 'minecraft:iron_block'},
+    {"item": 'mekamod:meka_ingot'},
+    {"item": 'draconicevolution:draconium_core'},
+    {"item": 'kubejs:start_mechanism'}
+  ],
+  "energy": 50000000,
+  "result": {
+    "item": "draconicevolution:basic_crafting_injector"
+  }
+}).id('mekaminers:draconic_custom/basic_crafting_injector')
+event.remove({output:"draconicevolution:wyvern_crafting_injector"})
+event.custom({
+  "type": "draconicevolution:fusion_crafting",
+  "catalyst": {
+    "item": "draconicevolution:basic_crafting_injector"
+  },
+  "ingredients": [
+    {
+      "item": "draconicevolution:wyvern_core"
+    },
+    {
+      "item": "botania:mana_diamond"
+    },
+    {
+      "item": "draconicevolution:draconium_core"
+    },
+    {
+      "item": "botania:mana_diamond"
+    },
+    {
+      "item": "draconicevolution:draconium_core"
+    },
+    {
+      "item": "botania:mana_diamond"
+    },
+    {
+      "tag": "forge:storage_blocks/draconium"
+    },
+    {
+      "item": "kubejs:started_mechanism"
+    }
+  ],
+  "result": {
+    "item": "draconicevolution:wyvern_crafting_injector"
+  },
+  "tier": "DRACONIUM",
+  "total_energy": 3200000
+}).id('mekaminers:draconic_custom/wyvern_crafting_injector')
+event.remove({output:"draconicevolution:awakened_crafting_injector"})
+event.custom({
+  "type": "draconicevolution:fusion_crafting",
+  "catalyst": {
+    "item": "draconicevolution:wyvern_crafting_injector"
+  },
+  "ingredients": [
+    {
+      "item": "botania:mana_diamond"
+    },
+    {
+      "item": "botania:mana_diamond"
+    },
+    {
+      "item": "draconicevolution:wyvern_core"
+    },
+    {
+      "tag": "forge:storage_blocks/draconium_awakened"
+    },
+    {
+      "item": "draconicevolution:wyvern_core"
+    },
+    {
+      "item": "botania:mana_diamond"
+    },
+    {
+      "item": "kubejs:initiating_mechanism"
+    }
+  ],
+  "result": {
+    "item": "draconicevolution:awakened_crafting_injector"
+  },
+  "tier": "WYVERN",
+  "total_energy": 9560000
+}).id('mekaminers:draconic_custom/awakened_crafting_injector')
+event.remove({output:"draconicevolution:chaotic_crafting_injector"})
+event.custom({
+  "type": "draconicevolution:fusion_crafting",
+  "catalyst": {
+    "item": "draconicevolution:awakened_crafting_injector"
+  },
+  "ingredients": [
+    {
+      "item": "botania:mana_diamond"
+    },
+    {
+      "item": "kubejs:spatial_circuit_component_1"
+    },
+    {
+      "item": "draconicevolution:large_chaos_frag"
+    },
+    {
+      "item": "draconicevolution:large_chaos_frag"
+    },
+    {
+      "item": "draconicevolution:large_chaos_frag"
+    },
+    {
+      "item": "draconicevolution:large_chaos_frag"
+    },
+    {
+      "item": "minecraft:dragon_egg"
+    },
+    {
+      "item": "botania:mana_diamond"
+    },
+    {
+      "item": "botania:mana_diamond"
+    }
+  ],
+  "result": {
+    "item": "draconicevolution:chaotic_crafting_injector"
+  },
+  "tier": "DRACONIC",
+  "total_energy": 20000000
+}).id('mekaminers:draconic_custom/chaotic_crafting_injector')
+event.remove({output:"draconicevolution:celestial_manipulator"})
+event.custom({
+  "type": "draconicevolution:fusion_crafting",
+  "catalyst": {
+    "item": "draconicevolution:wyvern_core"
+  },
+  "ingredients": [
+    {
+      "item": 'minecraft:clock'
+    },
+    {
+      "item": 'kubejs:activation_circuit_component_1'
+    },
+    {
+      "item": "draconicevolution:large_chaos_frag"
+    },
+    {
+      "item": "draconicevolution:large_chaos_frag"
+    },
+    {
+      "item": "minecraft:dragon_egg"
+    },
+    {
+      "item": 'mekamod:meka_ingot'
+    },
+    {
+      "item": 'mekamod:meka_ingot'
+    }
+  ],
+  "result": {
+    "item": "draconicevolution:celestial_manipulator"
+  },
+  "tier": "DRACONIC",
+  "total_energy": 2000000
+}).id('mekaminers:draconic_custom/celestial_manipulator')
+event.remove({output:"draconicevolution:advanced_dislocator"})
+event.remove({output:"draconicevolution:chaotic_chestpiece"})
+event.remove({output:"draconicevolution:chaotic_hoe"})
+event.remove({output:"draconicevolution:chaotic_pickaxe"})
+event.remove({output:"draconicevolution:chaotic_shovel"})
+event.remove({output:"draconicevolution:chaotic_sword"})
+event.remove({output:"draconicevolution:chaotic_bow"})
+event.remove({output:"draconicevolution:chaotic_staff_alt"})
+event.remove({output:"draconicevolution:awakened_core"})
+event.remove({output:"draconicevolution:crafting_core"})
+event.custom({
+  "type": "draconicevolution:fusion_crafting",
+  "catalyst": {
+    "item": "draconicevolution:draconic_bow"
+  },
+  "ingredients": [
+    {
+      "item": 'mekamod:meka_ingot'
+    },
+    {
+      "item": "draconicevolution:chaotic_core"
+    },
+    {
+      "item": "mekaweapons:mekabow"
+    },
+    {
+      "tag": "forge:ingots/draconium_awakened"
+    },
+    {
+      "tag": "forge:ingots/draconium_awakened"
+    },
+    {
+      "tag": "forge:ingots/draconium_awakened"
+    },
+    {
+      "item": "draconicevolution:chaotic_energy_core"
+    },
+    {
+      "item": 'mekamod:meka_ingot'
+    }
+  ],
+  "result": {
+    "item": "draconicevolution:chaotic_bow"
+  },
+  "tier": "CHAOTIC",
+  "total_energy": 128000000
+}).id('mekaminers:draconic_custom/chaotic_bow')
+event.custom({
+  "type": "draconicevolution:fusion_crafting",
+  "catalyst": {
+    "type": "forge:nbt",
+    "item": "mekamod:meka_chestplate",
+    "count": 1,
+    "nbt": "{Damage:0}"
+  },
+  "ingredients": [
+    {
+      "item": 'mekamod:meka_ingot'
+    },
+    {
+      "item": "draconicevolution:chaotic_core"
+    },
+    {
+      "item": "draconicevolution:draconic_chestpiece"
+    },
+    {
+      "tag": "forge:ingots/draconium_awakened"
+    },
+    {
+      "tag": "forge:ingots/draconium_awakened"
+    },
+    {
+      "tag": "forge:ingots/draconium_awakened"
+    },
+    {
+      "item": "draconicevolution:chaotic_energy_core"
+    },
+    {
+      "item": 'mekamod:meka_ingot'
+    }
+  ],
+  "result": {
+    "item": "draconicevolution:chaotic_chestpiece"
+  },
+  "tier": "CHAOTIC",
+  "total_energy": 128000000
+}).id('mekaminers:draconic_custom/chaotic_chestpiece')
+event.custom({
+  "type": "draconicevolution:fusion_crafting",
+  "catalyst": {
+    "type": "forge:nbt",
+    "item": "mekamod:meka_hoe",
+    "count": 1,
+    "nbt": "{Damage:0}"
+  },
+  "ingredients": [
+    {
+      "item": 'mekamod:meka_ingot'
+    },
+    {
+      "item": "draconicevolution:chaotic_core"
+    },
+    {
+      "item": "draconicevolution:draconic_hoe"
+    },
+    {
+      "tag": "forge:ingots/draconium_awakened"
+    },
+    {
+      "tag": "forge:ingots/draconium_awakened"
+    },
+    {
+      "tag": "forge:ingots/draconium_awakened"
+    },
+    {
+      "item": "draconicevolution:chaotic_energy_core"
+    },
+    {
+      "item": 'mekamod:meka_ingot'
+    }
+  ],
+  "result": {
+    "item": "draconicevolution:chaotic_hoe"
+  },
+  "tier": "CHAOTIC",
+  "total_energy": 128000000
+}).id('mekaminers:draconic_custom/chaotic_hoe')
+event.custom({
+  "type": "draconicevolution:fusion_crafting",
+  "catalyst": {
+    "type": "forge:nbt",
+    "item": "mekamod:meka_pickaxe",
+    "count": 1,
+    "nbt": "{Damage:0}"
+  },
+  "ingredients": [
+    {
+      "item": 'mekamod:meka_ingot'
+    },
+    {
+      "item": "draconicevolution:chaotic_core"
+    },
+    {
+      "item": "draconicevolution:draconic_pickaxe"
+    },
+    {
+      "tag": "forge:ingots/draconium_awakened"
+    },
+    {
+      "tag": "forge:ingots/draconium_awakened"
+    },
+    {
+      "tag": "forge:ingots/draconium_awakened"
+    },
+    {
+      "item": "draconicevolution:chaotic_energy_core"
+    },
+    {
+      "item": 'mekamod:meka_ingot'
+    }
+  ],
+  "result": {
+    "item": "draconicevolution:chaotic_pickaxe"
+  },
+  "tier": "CHAOTIC",
+  "total_energy": 128000000
+}).id('mekaminers:draconic_custom/chaotic_pickaxe')
+event.custom({
+  "type": "draconicevolution:fusion_crafting",
+  "catalyst": {
+    "type": "forge:nbt",
+    "item": "mekamod:meka_shovel",
+    "count": 1,
+    "nbt": "{Damage:0}"
+  },
+  "ingredients": [
+    {
+      "item": 'mekamod:meka_ingot'
+    },
+    {
+      "item": "draconicevolution:chaotic_core"
+    },
+    {
+      "item": "draconicevolution:draconic_shovel"
+    },
+    {
+      "tag": "forge:ingots/draconium_awakened"
+    },
+    {
+      "tag": "forge:ingots/draconium_awakened"
+    },
+    {
+      "tag": "forge:ingots/draconium_awakened"
+    },
+    {
+      "item": "draconicevolution:chaotic_energy_core"
+    },
+    {
+      "item": 'mekamod:meka_ingot'
+    }
+  ],
+  "result": {
+    "item": "draconicevolution:chaotic_shovel"
+  },
+  "tier": "CHAOTIC",
+  "total_energy": 128000000
+}).id('mekaminers:draconic_custom/chaotic_shovel')
+event.custom({
+  "type": "draconicevolution:fusion_crafting",
+  "catalyst": {
+    "type": "forge:nbt",
+    "item": "mekamod:meka_paxel",
+    "count": 1,
+    "nbt": "{Damage:0}"
+  },
+  "ingredients": [
+    {
+      "item": "draconicevolution:medium_chaos_frag"
+    },
+    {
+      "item": "draconicevolution:chaotic_core"
+    },
+    {
+      "item": "draconicevolution:medium_chaos_frag"
+    },
+    {
+      "item": "draconicevolution:chaotic_energy_core"
+    },
+    {
+      "item": "draconicevolution:awakened_core"
+    },
+    {
+      "item": "draconicevolution:draconic_staff"
+    },
+    {
+      "item": "draconicevolution:large_chaos_frag"
+    },
+    {
+      "item": "draconicevolution:chaotic_energy_core"
+    },
+    {
+      "item": "draconicevolution:large_chaos_frag"
+    },
+    {
+      "item": "draconicevolution:chaotic_energy_core"
+    }
+  ],
+  "result": {
+    "item": "draconicevolution:chaotic_staff"
+  },
+  "tier": "CHAOTIC",
+  "total_energy": 1024000000
+}).id('mekaminers:draconic_custom/chaotic_staff')
+event.custom({
+  "type": "draconicevolution:fusion_crafting",
+  "catalyst": {
+    "tag": "forge:nether_stars"
+  },
+  "ingredients": [
+    {
+      "item": "draconicevolution:wyvern_core"
+    },
+    {
+      "item": "draconicevolution:wyvern_core"
+    },
+    {
+      "item": "mekamod:meka_ingot"
+    },
+    {
+      "tag": "forge:ingots/draconium_awakened"
+    },
+    {
+      "tag": "forge:ingots/draconium_awakened"
+    },
+    {
+      "item": "mythicbotany:alfsteel_ingot"
+    },
+    {
+      "item": "draconicevolution:wyvern_core"
+    },
+    {
+      "item": "draconicevolution:wyvern_core"
+    }
+  ],
+  "result": {
+    "item": "draconicevolution:awakened_core"
+  },
+  "tier": "WYVERN",
+  "total_energy": 1000000
+})
+event.custom({
+  "type": "draconicevolution:fusion_crafting",
+  "catalyst": {
+    "item": "draconicevolution:dislocator"
+  },
+  "ingredients": [
+    {
+      "item": 'enderio:sentient_ender'
+    },
+    {
+      "item": 'extendedcrafting:enhanced_ender_ingot'
+    },
+    {
+      "tag": "forge:ender_pearls"
+    },
+    {
+      "tag": "forge:ingots/draconium"
+    },
+    {
+      "tag": "forge:ender_pearls"
+    },
+    {
+      "tag": "forge:ingots/draconium"
+    },
+    {
+      "item": "draconicevolution:wyvern_core"
+    },
+    {
+      "tag": "forge:ingots/draconium"
+    }
+  ],
+  "result": {
+    "item": "draconicevolution:advanced_dislocator"
+  },
+  "tier": "WYVERN",
+  "total_energy": 1000000
+})
+event.custom({
+  "type": "powah:energizing",
+  "ingredients": [
+    {"item": 'minecraft:crafting_table'},
+    {"item": 'botania:mana_diamond'},
+    {"item": 'mekamod:meka_ingot'},
+    {"item": 'draconicevolution:draconium_core'},
+    {"item": 'kubejs:start_mechanism'}
+  ],
+  "energy": 25000000,
+  "result": {
+    "item": "draconicevolution:crafting_core"
+  }
+})
 })

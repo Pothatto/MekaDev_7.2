@@ -1,0 +1,30 @@
+usernamecache.json
+usercache.json
+servers.dat_old
+rhino.local.properties
+README.md
+patchouli_data.json
+options.txt
+minecraftinstance.json
+LICENSE
+INSTALE TODAS AS PASTAS.txt
+.gitattributes
+.curseclient
+shaderpacks
+SE QUISER SHADERS
+schematics
+saves
+modernfix
+logs
+local
+kubejs/server_scripts
+easy_npc/cache
+downloads
+crash-reports
+.vscode
+.probe
+mods/Forgematica-0.1.5-mc1.20.1.jar
+config/modernfix-mixins.properties
+config/fml.toml
+config/apotheosis/names.cfg
+config/apotheosis/names.cfg_20240721_122948.errored

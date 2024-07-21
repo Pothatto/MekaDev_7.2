@@ -237,7 +237,7 @@ ServerEvents.recipes(event =>{
             "nbt": "{Damage:0}"
           }
       }).id('mekaminers:create_final_fase/meka_hoe')
-      event.remove({output:"mekamod:meka_armor_helmet"})
+      event.remove({output:"mekamod:meka_helmet"})
       event.custom({
         "type": "extendedcrafting:shaped_table",
         "pattern": [
@@ -291,12 +291,12 @@ ServerEvents.recipes(event =>{
         },
         "result": {
             "type": "forge:nbt",
-            "item": "mekamod:meka_armor_helmet",
+            "item": "mekamod:meka_helmet",
             "count": 1,
             "nbt": "{Damage:0,SimpleInsulation:[]}"
           }
-      }).id('mekaminers:create_final_fase/meka_armor_helmet')
-      event.remove({output:"mekamod:meka_armor_chestplate"})
+      }).id('mekaminers:create_final_fase/meka_helmet')
+      event.remove({output:"mekamod:meka_chestplate"})
       event.custom({
         "type": "extendedcrafting:shaped_table",
         "pattern": [
@@ -350,12 +350,12 @@ ServerEvents.recipes(event =>{
         },
         "result": {
             "type": "forge:nbt",
-            "item": "mekamod:meka_armor_chestplate",
+            "item": "mekamod:meka_chestplate",
             "count": 1,
             "nbt": "{Damage:0,SimpleInsulation:[]}"
           }
-      }).id('mekaminers:create_final_fase/meka_armor_chestplate')
-      event.remove({output:"mekamod:meka_armor_leggings"})
+      }).id('mekaminers:create_final_fase/meka_chestplate')
+      event.remove({output:"mekamod:meka_leggings"})
       event.custom({
         "type": "extendedcrafting:shaped_table",
         "pattern": [
@@ -409,12 +409,12 @@ ServerEvents.recipes(event =>{
         },
         "result": {
             "type": "forge:nbt",
-            "item": "mekamod:meka_armor_leggings",
+            "item": "mekamod:meka_leggings",
             "count": 1,
             "nbt": "{Damage:0,SimpleInsulation:[]}"
           }
-      }).id('mekaminers:create_final_fase/meka_armor_leggings')
-      event.remove({output:"mekamod:meka_armor_boots"})
+      }).id('mekaminers:create_final_fase/mekaleggings')
+      event.remove({output:"mekamod:meka_boots"})
       event.custom({
         "type": "extendedcrafting:shaped_table",
         "pattern": [
@@ -468,11 +468,11 @@ ServerEvents.recipes(event =>{
         },
         "result": {
             "type": "forge:nbt",
-            "item": "mekamod:meka_armor_boots",
+            "item": "mekamod:meka_boots",
             "count": 1,
             "nbt": "{Damage:0,SimpleInsulation:[]}"
           }
-      }).id('mekaminers:create_final_fase/meka_armor_boots')
+      }).id('mekaminers:create_final_fase/meka_boots')
       event.remove({output:"mekamod:meka_paxel"})
       event.custom({
         "type": "extendedcrafting:shaped_table",
@@ -553,10 +553,25 @@ ServerEvents.recipes(event =>{
         ],
         "output": [
           {
-            "item": "mekamod:tablist"
+            "item": "mekamod:meka_food"
           }
         ]
-      }).id('mekaminers:create_final_fase/tablist')
+      }).id('mekaminers:create_final_fase/meka_food')
       //event.remove({output:""})
       //event.custom().id('mekaminers:create_final_fase/machine_efficiency_creative_augment')
-})
+      event.shapeless("mekamod:meka_block",[
+        "mekamod:meka_ingot",
+        "mekamod:meka_ingot",
+        "mekamod:meka_ingot",
+        "mekamod:meka_ingot",
+        "mekamod:meka_ingot",
+        "mekamod:meka_ingot",
+        "mekamod:meka_ingot",
+        "mekamod:meka_ingot",
+        "mekamod:meka_ingot"
+      ]).id('mekaminers:meka_block')
+      event.smelting("mekamod:meka_ingot",
+        "mekamod:raw_meka"
+      )
+    })
+    

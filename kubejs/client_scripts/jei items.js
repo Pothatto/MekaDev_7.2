@@ -18,10 +18,11 @@ JEIEvents.hideItems(event =>{
     event.hide(`refinedstorage:${color}_crafter`); 
     event.hide(`refinedstorage:${color}_crafter_manager`); 
     event.hide(`refinedstorage:${color}_crafting_monitor`); 
-    event.hide(`refinedstorage:${color}_wireless_transmitter`); 
+    event.hide(`refinedstorage:${color}_wireless_transmitter`);
+    event.hide(`enderio:${color}_clear_glass`); 
 });
     //Removing Flying Effect From JEI
-   const flyingeffect = [
+/*    const flyingeffect = [
    Item.of('apotheosis:potion_charm', '{Damage:0,Potion:"apotheosis:flying"}'), 
    Item.of('apotheosis:potion_charm', '{Damage:0,Potion:"apotheosis:long_flying"}'),
    Item.of('apotheosis:potion_charm', '{Damage:0,Potion:"apotheosis:extra_long_flying"}'), 
@@ -41,7 +42,7 @@ JEIEvents.hideItems(event =>{
 ];
    flyingeffect.forEach(flyeffect =>{
    event.hide(flyeffect);
-});
+}); */
    //Removing Easy NPCS Itens From JEI 
    event.hide('@easy_npc');
    //Removing Operator Itens From JEI
@@ -63,7 +64,7 @@ OperatorsI.forEach(OpI =>{
 //Removing ban itens
 event.hide('@buildinggadgets')
 //Hidding Rage Glove
-event.hide('relics:rage_glove')
+// event.hide('relics:rage_glove')
 
 //Removing Incomplete mechanisms
 
@@ -90,6 +91,8 @@ const incomplete = [
    'kubejs:incomplete_activation_circuit_component_1',
    'kubejs:incomplete_activation_circuit_component_2',
    'kubejs:incomplete_activation_circuit',
+   'kubejs:incomplete_initiating_mechanism',
+   'kubejs:incomplete_precision_mechanism'
    ]
    incomplete.forEach(INCOMPLETE => { 
        event.hide(INCOMPLETE)

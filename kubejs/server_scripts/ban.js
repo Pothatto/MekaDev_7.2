@@ -68,7 +68,6 @@ ServerEvents.recipes(event =>{
     const meka = [
         'mekamod:mekaoretoingot',
         'mekamod:rawtoingot',
-        'mekamod:meka_ore_smelting',
         'mekamod:mekaorevarianttoingot',
         'thermal:furnace_1959083843',
         'thermal:furnace_1766866962',

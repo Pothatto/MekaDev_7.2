@@ -28,7 +28,7 @@
 	[embeddiumextras.performance]
 		#Toggles JREI item rendering until searching
 		#Increases performance a little bit and cleans your screen when you don't want to use it
-		hideJREI = false
+		hideJREI = true
 		#Toggles Minecraft Fonts shadows
 		#Depending of the case may increase performance
 		#Gives a flat style text
@@ -91,7 +91,7 @@
 		cloudsHeight = 192
 		#Toggle fog feature
 		#Fog was a vanilla feature, toggling off may increases performance
-		fog = true
+		fog = false
 
 		[embeddiumextras.quality.darkness]
 			#Configure fog brightness on nether when darkness is enabled

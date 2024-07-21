@@ -503,7 +503,7 @@ ServerEvents.recipes(event =>{
           "item": "industrialforegoing:laser_lens4"
         },
         "output": {
-          "item": "mekamod:rawmeka"
+          "item": "mekamod:raw_meka"
         },
         "pointer": 0,
         "rarity": [
@@ -520,5 +520,187 @@ ServerEvents.recipes(event =>{
             }
           }
         ]
-      }).id('mekaminers:ores/meka_ore')
+      }).id('mekaminers:ores/raw_meka')
+    event.custom({
+      "type": "draconicevolution:fusion_crafting",
+      "catalyst": {
+        "item": "angelring:diamond_ring"
+      },
+      "ingredients": [
+        {
+          "item": "extendedcrafting:the_ultimate_ingot"
+        },
+        {
+          "item": "extendedcrafting:the_ultimate_ingot"
+        },
+        {
+          "item": "draconicevolution:awakened_core"
+        },
+        {
+          "item": "draconicevolution:awakened_core"
+        },
+        {
+          "item": "draconicevolution:chaotic_energy_core"
+        },
+        {
+          "item": "draconicevolution:chaotic_energy_core"
+        },
+        {
+          "item": "draconicevolution:large_chaos_frag"
+        },
+        {
+          "item": "draconicevolution:large_chaos_frag"
+        },
+        {
+          "item": "draconicevolution:awakened_draconium_ingot"
+        },
+        {
+          "item": "draconicevolution:awakened_draconium_ingot"
+        }
+      ],
+      "result": {
+        "item": "draconicevolution:item_draconic_flight"
+      },
+      "tier": "DRACONIC",
+      "total_energy": 52800000
+    }).id('mekaminers:flight/draconic_flight')
+    event.remove("draconicevolution:modules/item_draconic_flight")
+    event.custom({
+      "type": "draconicevolution:fusion_crafting",
+      "catalyst": {
+        "item": "draconicevolution:item_draconic_flight"
+      },
+      "ingredients": [
+          {
+            "item": "draconicevolution:awakened_draconium_block"
+          },
+          {
+            "item": "draconicevolution:awakened_draconium_block"
+          },
+          {
+            "item": "draconicevolution:large_chaos_frag"
+          },
+          {
+            "item": "draconicevolution:large_chaos_frag"
+          },
+          {
+            "item": "draconicevolution:item_draconic_flight"
+          },
+          {
+            "item": "draconicevolution:item_draconic_flight"
+          },
+          {
+            "item": "draconicevolution:chaotic_core"
+          },
+          {
+            "item": "draconicevolution:chaotic_core"
+          },
+          {
+            "item": "draconicevolution:chaotic_energy_core"
+          },
+          {
+            "item": "draconicevolution:chaotic_energy_core"
+          }
+        ],
+        "result": {
+          "item": 'draconicevolution:item_chaotic_flight'
+        },
+        "tier": "CHAOTIC",
+        "total_energy": 200800000
+      }).id('mekaminers:flight/chaotic_flight')
+      event.remove("draconicevolution:modules/item_chaotic_flight")
+      event.custom({
+        "type": "draconicevolution:fusion_crafting",
+        "catalyst": {
+          "item": "draconicevolution:creative_op_capacitor"
+        },
+        "ingredients": [
+            {
+              "item": "extendedcrafting:the_ultimate_catalyst"
+            },
+            {
+              "item": "extendedcrafting:the_ultimate_catalyst"
+            },
+            {
+              "item": "draconicevolution:large_chaos_frag"
+            },
+            {
+              "item": "draconicevolution:large_chaos_frag"
+            },
+            {
+              "item": "draconicevolution:chaotic_capacitor"
+            },
+            {
+              "item": "draconicevolution:chaotic_capacitor"
+            },
+            {
+              "item": "draconicevolution:chaotic_core"
+            },
+            {
+              "item": "draconicevolution:chaotic_core"
+            },
+            {
+              "item": "draconicevolution:chaotic_energy_core"
+            },
+            {
+              "item": "draconicevolution:chaotic_energy_core"
+            }
+        ],
+        "result": {
+          "item": 'draconicevolution:creative_capacitor'
+        },
+        "tier": "CHAOTIC",
+        "total_energy": 2000800000
+      }).id('mekaminers:creative/creative_capacitor')
+      event.remove("draconicevolution:tools/chaotic_axe")
+      event.custom({
+        "type": "draconicevolution:fusion_crafting",
+        "catalyst": {
+          "item": "mekamod:meka_axe"
+        },
+        "ingredients": [
+            {
+              "item": "draconicevolution:large_chaos_frag"
+            },
+            {
+              "item": "draconicevolution:draconic_axe"
+            },
+            {
+              "item": "draconicevolution:chaotic_energy_core"
+            },
+            {
+              "item": "draconicevolution:chaotic_energy_core"
+            },
+            {
+              "item": "draconicevolution:large_chaos_frag"
+            },
+            {
+              "item": "draconicevolution:large_chaos_frag"
+            },
+            {
+              "item": "draconicevolution:chaotic_core"
+            },
+            {
+              "item": "draconicevolution:chaotic_capacitor"
+            }
+          ],
+          "result": {
+            "item": 'draconicevolution:chaotic_axe'
+          },
+          "tier": "CHAOTIC",
+          "total_energy": 20000000
+        }).id('mekaminers:draconicevolution/chaotic_axe')
+ event.custom({
+    "type": "thermal:crucible",
+    "ingredient": {
+    "item": 'botania:blaze_block'
+    },
+    "result": [
+    {
+      "fluid": "kubejs:liquid_blaze",
+      "amount": 1000
+    }
+    ],
+    "energy": 200000
+    }).id('mekaminers:create_fase_2/liquid_blaze')
 })

@@ -1553,21 +1553,6 @@ event.custom({
 //Blaze Quartz
 event.remove({id:'botania:quartz_blaze'})
 
-//Blaze Liquido
-event.custom({
-  "type": "thermal:crucible",
-  "ingredient": {
-    "item": "botania:blaze_block"
-  },
-  "result": [
-    {
-      "fluid": "gtceu:blaze",
-      "amount": 1000
-    }
-  ],
-  "energy": 20000
-}).id('mekaminers:create_fase_3/liquid_blaze')
-
 //Blaze Quartz 
 event.custom({
   "type": "thermal:bottler",
@@ -1576,7 +1561,7 @@ event.custom({
       "item": "botania:quartz_red"
     },
     {
-      "fluid": "gtceu:blaze",
+      "fluid": "liquid_blaze",
       "amount": 100
     }
   ],
@@ -4098,5 +4083,178 @@ event.custom({
   }
 }).id('mekaminers:create_fase_wireless/infinity_card')
 event.remove({output: "aeinfinitybooster:dimension_card"})
-
+event.custom({
+  "type": "create:mechanical_crafting",
+  "pattern": [
+    " AAAAAAA ",
+    "ABCCCCCDA",
+    "AEFGGGFEA",
+    "AHGIJIGHA",
+    "AKGJLJGKA",
+    "AHGIJIGHA",
+    "AEFGGGFEA",
+    "ADMMMMMBA",
+    " AAAAAAA "
+  ],
+  "key": {
+    "A": {
+      "item": "enderio:redstone_alloy_block"
+    },
+    "B": {
+      "item": "mysticalagradditions:molten_supremium_bucket"
+    },
+    "C": {
+      "item": "allthemodium:unobtainium_vibranium_alloy_ingot"
+    },
+    "D": {
+      "item": "enderio:vibrant_capacitor_bank"
+    },
+    "E": {
+      "item": "kubejs:spatial_circuit_component_1"
+    },
+    "F": {
+      "item": "dreadsteel:dreadsteel_ingot"
+    },
+    "G": {
+      "item": "extendedcrafting:crystaltine_ingot"
+    },
+    "H": {
+      "item": "kubejs:spatial_circuit_component_2"
+    },
+    "I": {
+      "item": "enderio:advanced_capacitor_bank"
+    },
+    "J": {
+      "item": "extendedcrafting:the_ultimate_ingot"
+    },
+    "K": {
+      "item": "kubejs:spatial_circuit"
+    },
+    "L": {
+      "type": "forge:nbt",
+      "item": "mekanism:creative_energy_cube",
+      "count": 1,
+      "nbt": "{mekData:{EnergyContainers:[],componentConfig:{config0:{side0:4,side1:4,side2:4,side3:4,side4:4,side5:4},config6:{side0:4,side1:1,side2:1,side3:1,side4:1,side5:1},eject0:1b,eject6:0b},componentEjector:{color0:-1,color1:-1,color2:-1,color3:-1,color4:-1,color5:-1,strictInput:0b},controlType:0,owner:[I;1519398755,-512536600,-2140169168,372537850]}}"
+    },
+    "M": {
+      "item": "allthemodium:unobtainium_allthemodium_alloy_ingot"
+    }
+  },
+  "result": {
+    "item": "enderio:creative_power"
+  }
+}).id('mekaminers:create_creative_fase/creative_creative_power')
+event.custom({
+  "type": "create:mechanical_crafting",
+  "pattern": [
+    " AAAAAAA ",
+    "ABCCDEEBA",
+    "AFGGHGGFA",
+    "AIGJKJGIA",
+    "ALMKNKMLA",
+    "AIGJKJGIA",
+    "AFGGOGGFA",
+    "ABCCDEEBA",
+    " AAAAAAA "
+  ],
+  "key": {
+    "A": {
+      "item": "draconicevolution:infused_obsidian"
+    },
+    "B": {
+      "item": "dreadsteel:dreadsteel_ingot"
+    },
+    "C": {
+      "item": "allthemodium:unobtainium_allthemodium_alloy_ingot"
+    },
+    "D": {
+      "item": "draconicevolution:chaotic_capacitor"
+    },
+    "E": {
+      "item": "allthemodium:unobtainium_vibranium_alloy_ingot"
+    },
+    "F": {
+      "item": "kubejs:spatial_circuit_component_2"
+    },
+    "G": {
+      "item": "extendedcrafting:crystaltine_ingot"
+    },
+    "H": {
+      "item": "mysticalagradditions:molten_supremium_bucket"
+    },
+    "I": {
+      "item": "kubejs:spatial_circuit_component_1"
+    },
+    "J": {
+      "item": "extendedcrafting:the_ultimate_catalyst"
+    },
+    "K": {
+      "item": "extendedcrafting:the_ultimate_ingot"
+    },
+    "L": {
+      "item": "draconicevolution:chaotic_core"
+    },
+    "M": {
+      "item": "draconicevolution:large_chaos_frag"
+    },
+    "N": {
+      "item": "enderio:creative_power"
+    },
+    "O": {
+      "item": "mysticalagradditions:molten_imperium_bucket"
+    }
+  },
+  "result": {
+    "item": "draconicevolution:creative_op_capacitor"
+  }
+}).id('mekaminers:create_creative_fase/creative_op_capacitor')
+event.custom({
+  "type": "create:mechanical_crafting",
+  "pattern": [
+    "         ",
+    "         ",
+    "         ",
+    "ABBBBBBBA",
+    "ABBCDCBBA",
+    "AEEDFDEEA",
+    "AGGCDCGGA",
+    "AGGHIJGGA",
+    " AAAAAAA "
+  ],
+  "key": {
+    "A": {
+      "item": "botania:fabulous_pool"
+    },
+    "B": {
+      "item": "extendedcrafting:crystaltine_ingot"
+    },
+    "C": {
+      "item": "extendedcrafting:the_ultimate_catalyst"
+    },
+    "D": {
+      "item": "botanicalmachinery:mana_battery"
+    },
+    "E": {
+      "item": "kubejs:spatial_circuit_component_2"
+    },
+    "F": {
+      "item": "botania:creative_pool"
+       },
+    "G": {
+      "item": "botania:blacker_lotus"
+    },
+    "H": {
+      "item": "allthemodium:soul_lava_bucket"
+    },
+    "I": {
+      "item": "allthemodium:molten_vibranium_bucket"
+    },
+    "J": {
+      "item": "mysticalagradditions:molten_imperium_bucket"
+    }
+  },
+  "result": {
+    "item": "botanicalmachinery:mana_battery_creative"
+  }
+}).id('mekaminers:create_creative_fase/mana_battery_creative')
 })

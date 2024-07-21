@@ -1,6 +1,4 @@
 {
-  "_README": "https://gitlab.com/CDAGaming/CraftPresence/-/wikis/home",
-  "_SOURCE": "https://gitlab.com/CDAGaming/CraftPresence",
   "_schemaVersion": 6,
   "_lastMCVersionId": 763,
   "generalSettings": {
@@ -59,6 +57,9 @@
     },
     "singleplayerData": {
       "textOverride": "Playing Singleplayer"
+    },
+    "realmData": {
+      "textOverride": "Playing on {server.motd.raw}"
     }
   },
   "advancedSettings": {
@@ -98,7 +99,8 @@
     "serverIconEndpoint": "https://api.mcsrvstat.us/icon/{server.address.short}",
     "playerSkinEndpoint": "https://mc-heads.net/avatar/{getOrDefault(player.uuid.short, player.name)}",
     "allowDuplicatePackets": false,
-    "maxConnectionAttempts": 10
+    "maxConnectionAttempts": 10,
+    "enableClassGraph": false
   },
   "accessibilitySettings": {
     "tooltipBackground": {
@@ -173,12 +175,15 @@
       }
     },
     "dynamicIcons": {
+      "localhost": "https://api.mcsrvstat.us/icon/localhost",
       "jogar.mekaminers.net": "https://api.mcsrvstat.us/icon/jogar.mekaminers.net",
       "default": "https://via.placeholder.com/256.png",
       "181.214.221.26": "https://api.mcsrvstat.us/icon/181.214.221.26",
-      "Pothatto": "https://mc-heads.net/avatar/5a902f63e1734fe8806f9c30163479fa",
       "26.44.4.242": "https://api.mcsrvstat.us/icon/26.44.4.242",
-      "RenanPlay13013": "https://mc-heads.net/avatar/a2aeb0775a0d40f495a1d133e3ad06a3"
+      "Caputino": "https://mc-heads.net/avatar/2e946ca6cf894636bbef2f05536d1ce7",
+      "Pothatto": "https://mc-heads.net/avatar/5a902f63e1734fe8806f9c30163479fa",
+      "RenanPlay13013": "https://mc-heads.net/avatar/a2aeb0775a0d40f495a1d133e3ad06a3",
+      "0.tcp.sa.ngrok.io": "https://api.mcsrvstat.us/icon/0.tcp.sa.ngrok.io"
     },
     "dynamicVariables": {
       "default": "Example Text",
