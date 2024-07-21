@@ -6,6 +6,14 @@
 	group: ""
 	icon: "ae2:controller"
 	id: "40690AD807625566"
+	images: [{
+		height: 2.0d
+		image: "bloodmagic:models/alchemyarrays/skeletonturret2"
+		rotation: 0.0d
+		width: 2.0d
+		x: -1.5d
+		y: -6.5d
+	}]
 	order_index: 1
 	quest_links: [ ]
 	quests: [

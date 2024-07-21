@@ -198,7 +198,6 @@ event.shaped(output, [
 
 ACR('create:clutch', 'create:shaft', 'kubejs:start_casing', 'minecraft:redstone')
 ACR('create:gearshift', 'create:cogwheel', 'kubejs:start_casing', 'minecraft:redstone')
-ACR('create:mechanical_piston', '#minecraft:slabs', 'kubejs:start_casing', 'create:piston_extension_pole')
 ACR('create:encased_chain_drive', '#forge:nuggets/iron', 'kubejs:start_casing', '#forge:nuggets/iron')
 ACR('create:cuckoo_clock', '#minecraft:planks', 'kubejs:start_casing', 'minecraft:clock')
 ACR('create:mechanical_bearing', '#minecraft:slabs', 'kubejs:start_casing', 'create:shaft')

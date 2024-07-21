@@ -5,6 +5,14 @@
 	group: ""
 	icon: "industrialforegoing:machine_frame_supreme"
 	id: "0F706C4A4A990D39"
+	images: [{
+		height: 2.0d
+		image: "bloodmagic:models/alchemyarrays/moonarraysymbols"
+		rotation: 0.0d
+		width: 2.0d
+		x: 2.5d
+		y: 0.0d
+	}]
 	order_index: 4
 	quest_links: [ ]
 	quests: [

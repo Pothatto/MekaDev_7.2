@@ -5,6 +5,14 @@
 	group: ""
 	icon: "refinedstorage:creative_controller"
 	id: "11B6FC6D441450F2"
+	images: [{
+		height: 2.5d
+		image: "bloodmagic:models/alchemyarrays/moonarrayinside"
+		rotation: 0.0d
+		width: 2.5d
+		x: -4.0d
+		y: 7.5d
+	}]
 	order_index: 2
 	quest_links: [ ]
 	quests: [

@@ -6,6 +6,24 @@
 	group: ""
 	icon: "apotheosis:mythic_material"
 	id: "40B0A2E0C2F9246E"
+	images: [
+		{
+			height: 2.5d
+			image: "bloodmagic:models/alchemyarrays/sunarray"
+			rotation: 0.0d
+			width: 2.5d
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			height: 2.5d
+			image: "bloodmagic:models/alchemyarrays/sightsigil"
+			rotation: 0.0d
+			width: 2.5d
+			x: 0.0d
+			y: 0.5d
+		}
+	]
 	order_index: 13
 	quest_links: [ ]
 	quests: [
@@ -32,7 +50,7 @@
 				type: "item"
 			}]
 			x: -2.0d
-			y: 7.0d
+			y: 7.5d
 		}
 		{
 			dependencies: ["0582FFF89D2C47F8"]
@@ -57,7 +75,7 @@
 				type: "item"
 			}]
 			x: -1.0d
-			y: 7.0d
+			y: 7.5d
 		}
 		{
 			dependencies: ["0582FFF89D2C47F8"]
@@ -82,7 +100,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 7.0d
+			y: 7.5d
 		}
 		{
 			dependencies: ["0582FFF89D2C47F8"]
@@ -107,7 +125,7 @@
 				type: "item"
 			}]
 			x: 1.0d
-			y: 7.0d
+			y: 7.5d
 		}
 		{
 			dependencies: ["0582FFF89D2C47F8"]
@@ -133,7 +151,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: 7.0d
+			y: 7.5d
 		}
 		{
 			id: "0E385363F618E41B"
@@ -227,13 +245,14 @@
 				item: "apotheosis:simple_reforging_table"
 				type: "item"
 			}]
-			x: 0.5d
+			x: 1.0d
 			y: 5.0d
 		}
 		{
 			dependencies: [
 				"6E7DE4C920AB864D"
-				"7AFDDBE73892AB06"
+				"60E240057442D669"
+				"3503EF6239B80645"
 			]
 			id: "0582FFF89D2C47F8"
 			rewards: [
@@ -282,7 +301,7 @@
 				item: "apotheosis:salvaging_table"
 				type: "item"
 			}]
-			x: -1.5d
+			x: -1.0d
 			y: 5.0d
 		}
 		{
@@ -298,7 +317,7 @@
 				item: "apotheosis:gem_cutting_table"
 				type: "item"
 			}]
-			x: -0.5d
+			x: 0.0d
 			y: 5.0d
 		}
 		{
