@@ -703,5 +703,19 @@ ServerEvents.recipes(event =>{
     ],
     "energy": 200000
     }).id('mekaminers:create_fase_2/liquid_blaze')
-
+    event.remove({output:"industrialforegoing:hydroponic_bed"})
+    event.custom({
+      "type": "powah:energizing",
+      "ingredients": [
+        {"item": 'botania:world_seed'},
+        {"item": 'industrialforegoing:fertilizer'},
+        {"item": 'industrialforegoing:machine_frame_advanced'},
+        {"item": 'alltheores:gold_gear'},
+        {"item": 'industrialforegoing:plastic'}
+      ],
+      "energy": 2000000,
+      "result": {
+        "item": "industrialforegoing:hydroponic_bed"
+      }
+    }).id('mekaminers:draconic_custom/hydroponic_bed')
 })

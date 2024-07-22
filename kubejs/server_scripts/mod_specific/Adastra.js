@@ -89,10 +89,10 @@ event.custom({
         "group": "launch_pad",
         "key": {
           "1": {
-            "tag": "ad_astra_platform:steel_plates"
+            "item": "alltheores:steel_plate"
           },
           "2": {
-            "tag": "ad_astra_platform:iron_plates"
+            "item": "alltheores:iron_plate"
           },
           "3": {
             "item": "kubejs:initiated_mechanism"

@@ -808,7 +808,7 @@ event.custom({
   },
   "tier": "WYVERN",
   "total_energy": 1000000
-})
+}).id('mekaminers:draconic_custom/awakened_core')
 event.custom({
   "type": "draconicevolution:fusion_crafting",
   "catalyst": {
@@ -845,7 +845,7 @@ event.custom({
   },
   "tier": "WYVERN",
   "total_energy": 1000000
-})
+}).id('mekaminers:draconic_custom/advanced_dislocator')
 event.custom({
   "type": "powah:energizing",
   "ingredients": [
@@ -859,5 +859,5 @@ event.custom({
   "result": {
     "item": "draconicevolution:crafting_core"
   }
-})
+}).id('mekaminers:draconic_custom/crafting_core')
 })
